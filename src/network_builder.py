@@ -3,15 +3,16 @@ import networkx as nx
 from networkx.algorithms import bipartite
 import time
 
-def build_and_project_networks(edge_list_df):
+def build_and_project_networks(edge_list_df, output_dir):
     """
-    Builds a bipartite graph and projects it into disease-disease and drug-drug networks.
+    Builds and projects the bipartite graph, saving the results to the specified directory.
     
     Args:
-        edge_list_df (pandas.DataFrame): DataFrame with 'ChemicalName' and 'DiseaseName' columns.
+        edge_list_df (pandas.DataFrame): DataFrame of drug-disease edges.
+        output_dir (pathlib.Path): The directory to save the network files in.
         
     Returns:
-        tuple: A tuple containing the disease_network and drug_network (networkx.Graph objects).
+        tuple: A tuple containing the disease_network and drug_network.
     """
     print("\nBuilding the bipartite graph...")
     B = nx.Graph()
@@ -31,12 +32,15 @@ def build_and_project_networks(edge_list_df):
     end_time = time.time()
     print(f"Projection complete! (Took {end_time - start_time:.2f} seconds)")
     
-    # Save the networks for later use
-    nx.write_gexf(disease_network, "results/networks/disease_network.gexf")
-    nx.write_gexf(drug_network, "results/networks/drug_network.gexf")
+    # Construct OS-independent paths for saving
+    disease_net_path = output_dir / "disease_network.gexf"
+    drug_net_path = output_dir / "drug_network.gexf"
+    
+    nx.write_gexf(disease_network, disease_net_path)
+    nx.write_gexf(drug_network, drug_net_path)
     
     print("\n--- Projected Networks Saved ---")
-    print(f"Disease-Disease network saved to 'results/networks/disease_network.gexf'")
-    print(f"Drug-Drug network saved to 'results/networks/drug_network.gexf'")
+    print(f"Disease-Disease network saved to '{disease_net_path}'")
+    print(f"Drug-Drug network saved to '{drug_net_path}'")
     
     return disease_network, drug_network
