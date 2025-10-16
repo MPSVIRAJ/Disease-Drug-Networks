@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_and_clean_data(file_path='data/CTD_chemicals_diseases.csv'):
+def load_and_clean_data(file_path: str) -> pd.DataFrame:
     """
     Load and clean the CTD chemicals-diseases dataset.
 
