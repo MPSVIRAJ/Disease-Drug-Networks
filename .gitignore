@@ -3,3 +3,9 @@ ddn/
 
 # VSCode settings
 .vscode/
+
+# macOS Finder metadata
+.DS_Store
+
+# Data files
+data/
