@@ -1,0 +1,8 @@
+pandas
+networkx
+matplotlib
+seaborn
+python-louvain
+node2vec
+scikit-learn
+umap-learn
