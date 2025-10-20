@@ -2,6 +2,7 @@
 import networkx as nx
 from networkx.algorithms import bipartite
 import time
+import pickle
 
 def build_and_project_networks(edge_list_df, output_dir):
     """
@@ -32,12 +33,21 @@ def build_and_project_networks(edge_list_df, output_dir):
     end_time = time.time()
     print(f"Projection complete! (Took {end_time - start_time:.2f} seconds)")
     
-    # Construct OS-independent paths for saving
-    disease_net_path = output_dir / "disease_network.gexf"
-    drug_net_path = output_dir / "drug_network.gexf"
+    print("\nSaving projected networks using pickle...")
+    start_save_time = time.time()
     
-    nx.write_gexf(disease_network, disease_net_path)
-    nx.write_gexf(drug_network, drug_net_path)
+    disease_net_path = output_dir / "disease_network.pkl"
+    drug_net_path = output_dir / "drug_network.pkl"
+    
+    # Use write_gpickle for faster binary saving
+    with open(disease_net_path, 'wb') as f:
+        pickle.dump(disease_network, f, pickle.HIGHEST_PROTOCOL)
+        
+    with open(drug_net_path, 'wb') as f:
+        pickle.dump(drug_network, f, pickle.HIGHEST_PROTOCOL)
+        
+    end_save_time = time.time()
+    print(f"Saving complete! (Took {end_save_time - start_save_time:.2f} seconds)")
     
     print("\n--- Projected Networks Saved ---")
     print(f"Disease-Disease network saved to '{disease_net_path}'")
