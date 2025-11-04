@@ -9,3 +9,9 @@ ddn/
 
 # Data files
 data/
+
+#python cashes
+src/__pycache__/
+
+# Doc files
+docs/
