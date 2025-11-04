@@ -15,3 +15,5 @@ src/__pycache__/
 
 # Doc files
 docs/
+# Large artifacts
+results/networks/*.pkl
