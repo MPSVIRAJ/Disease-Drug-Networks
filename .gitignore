@@ -17,3 +17,6 @@ src/__pycache__/
 docs/
 # Large artifacts
 results/networks/*.pkl
+
+# Large artifacts
+results/networks/*.pkl
