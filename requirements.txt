@@ -1,8 +1,11 @@
 pandas
-networkx
+networkx==3.3
 matplotlib
 seaborn
 python-louvain
-node2vec
 scikit-learn
 umap-learn
+numpy>=1.23.0
+scipy>=1.9
+gensim>=4.0.0,<5.0.0
+nodevectors # <-- Specific nodevectors version
