@@ -1,0 +1,11 @@
+Rank,Drug,Predicted Disease,Score
+1,Valproic Acid,PLASMODIUM FALCIPARUM BLOOD INFECTION LEVEL,1.0
+2,bisphenol A,"Wounds, Nonpenetrating",1.0
+3,gamma-Aminobutyric Acid,Opiate Overdose,1.0
+4,Dizocilpine Maleate,Opiate Overdose,1.0
+5,Dioxins,Opiate Overdose,1.0
+6,epoxiconazole,Opiate Overdose,1.0
+7,ethylene dichloride,Opiate Overdose,1.0
+8,furan,Opiate Overdose,1.0
+9,Phenytoin,Opiate Overdose,1.0
+10,epigallocatechin gallate,Opiate Overdose,1.0
