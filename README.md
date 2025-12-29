@@ -118,8 +118,8 @@ This study utilizes the Comparative Toxicogenomics Database (CTD). Due to file s
 
 Instructions:
 
-1. Go to CTD Downloads.
-2. Download the "Chemical-disease associations" file (CTD_chemicals_diseases.tsv.gz).
+1. Go to <a href=https://ctdbase.org/downloads/>CTD Downloads</a>.
+2. Download the "Chemical-disease associations" file <a href=https://ctdbase.org/reports/CTD_chemicals_diseases.csv.gz>(CTD_chemicals_diseases.tsv.gz)</a>.
 3. Extract the file.
 4. Rename it to CTD_chemicals_diseases.csv and place it in the data/ directory.
 
@@ -134,30 +134,35 @@ Instructions:
 ```sh
 
 git clone [https://github.com/MPSVIRAJ/Disease-Drug-Networks.git](https://github.com/MPSVIRAJ/Disease-Drug-Networks.git)
+
 cd Disease-Drug-Networks
 ```
 **Create and activate a virtual environment (Optional):**
     
-    **On macOS/Linux:**
-    ```sh
-    python3 -m venv ddn
-    source ddn/bin/activate 
-    ```
-
-    **On Windows:**
+**On macOS/Linux:**
     
-    Make the environment 
-    ```sh
-    python -m venv ddn     
-    ```
-    Before activating, you may need to run this command in PowerShell:
-    ```powershell
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-    ```
-    Activate the environment:
-    ```powershell
-    .\ddn\Scripts\activate
-    ```
+```sh
+python3 -m venv ddn
+source ddn/bin/activate 
+```
+
+**On Windows:**
+    
+Make the environment 
+
+```sh
+python -m venv ddn     
+```
+Before activating, you may need to run this command in PowerShell:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
+Activate the environment:
+
+```powershell
+.\ddn\Scripts\activate
+```
 **Install dependencies:**
 
 ```sh
@@ -226,11 +231,16 @@ Mechanism Agnostic: The diffusion model relies on "Guilt-by-Association." It pre
 Computational Intensity: Generating embeddings for the full unpruned network is computationally expensive. The pipeline uses a pruning threshold (90th percentile) to manage this, which may discard subtle but valid signals.
 
 ## License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 ## Citation
 If you use this code or methodology, please cite:
 
 Malwaththa Pathirannehelage, S. V. (2025). Computational Analysis of Drug-Disease Associations: A Hybrid Network Approach for Drug Repurposing.
 
-<p align="center"> <br /> <a href="https://www.google.com/search?q=https://github.com/MPSVIRAJ/Disease-Drug-Networks/issues">Report Bug</a> </p>
+<p align="center"> 
+<br /> 
+<a href="https://www.google.com/search?q=https://github.com/MPSVIRAJ/Disease-Drug-Networks/issues">Report Bug</a> 
+ |
+<a href="https://www.google.com/search?q=https://github.com/MPSVIRAJ/Disease-Drug-Networks/issues">Request Feature</a>
+</p>
