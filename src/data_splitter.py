@@ -4,16 +4,35 @@ import random
 
 def create_validation_split(edge_list_df, test_fraction=0.1):
     """
-    Splits the original edge list into a training set and a test set.
-    The test set contains known positive links and fabricated negative links.
+    Splits an edge list into training and validation sets for link prediction.
+
+    This function partitions the known positive associations into a training set and a 
+    test set. It also generates a set of negative samples (fabricated non-associations) 
+    equal in size to the positive test set. The resulting test DataFrame includes both 
+    positive (Label=1) and negative (Label=0) samples to evaluate binary classification 
+    performance.
+
+    Args:
+        edge_list_df (pd.DataFrame): A DataFrame containing the known positive edges. 
+            It must have two columns representing the source and target nodes (e.g., 
+            ['ChemicalName', 'DiseaseName']).
+        test_fraction (float, optional): The proportion of the dataset to include in 
+            the test split. Defaults to 0.1 (10%).
+
+    Returns:
+        tuple[pd.DataFrame, pd.DataFrame]: A tuple containing two DataFrames:
+            - train_df: Contains the training edges (positive samples only) with 
+            columns ['ChemicalName', 'DiseaseName'].
+            - test_df: Contains both positive and negative edges for validation, 
+            with an additional 'Label' column (1 for positive, 0 for negative).
     """
     print("\n--- Creating Validation Split ---")
     
-    # 1. Get the positive links (all known associations)
+    # Get the positive links (all known associations)
     positive_edges = [tuple(x) for x in edge_list_df.values]
     random.shuffle(positive_edges)
     
-    # 2. Split positive links into train and test
+    # Split positive links into train and test
     test_size = int(len(positive_edges) * test_fraction)
     test_positive_edges = positive_edges[:test_size]
     train_edges = positive_edges[test_size:]
@@ -22,7 +41,7 @@ def create_validation_split(edge_list_df, test_fraction=0.1):
     print(f"Training set size: {len(train_edges)} associations")
     print(f"Test set size (positive): {len(test_positive_edges)} associations")
     
-    # 3. Create negative samples for the test set
+    # Create negative samples for the test set
     print("Generating negative samples for the test set...")
     drug_nodes = set(edge_list_df['ChemicalName'])
     disease_nodes = set(edge_list_df['DiseaseName'])
@@ -42,7 +61,7 @@ def create_validation_split(edge_list_df, test_fraction=0.1):
             
     print(f"Test set size (negative): {len(test_negative_edges)} associations")
 
-    # 4. Create DataFrames for train/test
+    # Create DataFrames for train/test
     train_df = pd.DataFrame(train_edges, columns=['ChemicalName', 'DiseaseName'])
     
     # Create test DataFrame with labels (1=positive, 0=negative)
