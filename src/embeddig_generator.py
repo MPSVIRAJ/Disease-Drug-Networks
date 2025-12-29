@@ -11,18 +11,27 @@ from scipy.sparse import csr_matrix
 
 def generate_node_embeddings_fast(pruned_network_path, embeddings_output_path):
     """
-    Loads the PRUNED disease network, generates embeddings using nodevectors,
-    and saves them. Handles NetworkX 3.x compatibility.
+    Generates node embeddings for the disease network using a fast Node2Vec implementation.
+
+    This function utilizes the `nodevectors` library to create 64-dimensional vector 
+    representations of nodes. To maximize performance, it converts the NetworkX graph 
+    into a SciPy CSR sparse matrix before training. The resulting embeddings capture 
+    structural properties of the graph via random walks.
 
     Args:
-        pruned_network_path (pathlib.Path): Path to the PRUNED network file (.pkl).
-        embeddings_output_path (pathlib.Path): Path to save the output embeddings (.pkl).
+        pruned_network_path (str or Path): Path to the pickled NetworkX graph file 
+            (typically the pruned disease network).
+        embeddings_output_path (str or Path): Path where the resulting dictionary 
+            of {node_name: embedding_vector} will be saved as a pickle file.
+
+    Returns:
+        None: The embedding dictionary is saved directly to the specified output path.
     """
 
     print(f"\n--- Starting Phase 3: Node Embedding (Fast Version) ---")
     print(f"Loading PRUNED disease network from '{pruned_network_path}'...")
-
-    # ...(loading code remains the same)...
+    
+    # Load the pruned network
     try:
         with open(pruned_network_path, 'rb') as f:
             disease_net_pruned = pickle.load(f)
@@ -34,19 +43,20 @@ def generate_node_embeddings_fast(pruned_network_path, embeddings_output_path):
 
     print(f"Pruned disease network loaded: {disease_net_pruned.number_of_nodes()} nodes, {disease_net_pruned.number_of_edges()} edges.")
 
-    # --- FIX: Convert graph to sparse matrix BEFORE fitting ---
+    # Convert graph to sparse matrix BEFORE fitting 
     print("\nConverting graph to SciPy sparse matrix for nodevectors...")
+    
     # Ensure nodes are in a fixed order for the matrix
     node_list = list(disease_net_pruned.nodes())
-    # Use the correct NetworkX 3.x function
     adjacency_matrix_sparse = nx.adjacency_matrix(disease_net_pruned, nodelist=node_list, weight='weight')
-    # Ensure it's in CSR format, which nodevectors/csrgraph expects
+    
+    # Ensure the format
     if not isinstance(adjacency_matrix_sparse, csr_matrix):
          adjacency_matrix_sparse = csr_matrix(adjacency_matrix_sparse)
     print("Conversion complete.")
 
 
-    # --- Configure and Run nodevectors Node2Vec ---
+    # Configure and Run nodevectors 
     print("\nConfiguring and running nodevectors Node2Vec...")
     start_time = time.time()
 
@@ -60,22 +70,16 @@ def generate_node_embeddings_fast(pruned_network_path, embeddings_output_path):
         keep_walks=False,
         verbose=True
     )
-
-    # --- FIX: Fit using the pre-converted sparse matrix ---
-    # The fit method in nodevectors should accept a csr_matrix
     g2v.fit(adjacency_matrix_sparse)
 
     end_time = time.time()
     print(f"Nodevectors training complete! (Took {end_time - start_time:.2f} seconds)")
 
-    # --- Save the Embeddings ---
+    # Save the Embeddings 
     print(f"\nSaving node embeddings...")
-
-    # --- FIX: Get embeddings using the original node names from node_list ---
-    # g2v.predict() works with integer indices when fit on a matrix. Map back to names.
     embedding_dict = {}
     for i, node_name in enumerate(node_list):
-        embedding_dict[node_name] = g2v.predict(i) # Use index i
+        embedding_dict[node_name] = g2v.predict(i) 
 
     with open(embeddings_output_path, 'wb') as f:
         pickle.dump(embedding_dict, f)
