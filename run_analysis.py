@@ -25,7 +25,7 @@ disease_net_path = network_output_dir/ "disease_network.pkl"
 drug_net_path = network_output_dir / "drug_network.pkl"
 
 # --- Embedding output paths ---
-disease_net_pruned_path = network_output_dir / "disease_network_pruned_p90.pkl" # p90 means kept top 10%
+disease_net_pruned_path = network_output_dir / "disease_network_pruned_p90.pkl" 
 disease_embeddings_path = network_output_dir / "disease_embeddings_fast.pkl"
 disease_communities_path = network_output_dir / "disease_communities.pkl"
 embedding_plot_path = plot_output_dir / "disease_embedding_umap.png"
@@ -87,7 +87,7 @@ def main(args):
             print("Error: Community file not found. Run Phase 2 first.")
             return
 
-        # --- Embedding Generation (Run only if needed) ---
+        # --- Embedding Generation ---
         if not disease_embeddings_path.exists():
             print(f"Embeddings file not found. Generating embeddings...")
             
@@ -114,22 +114,27 @@ def main(args):
         print("\nSkipping Phase 3.")
     
     if args.phase4 or args.all:
-        print("\n--- Running Phase 4: Professor's Diffusion Method ---")
-        if edge_list is None: # Should have been loaded at the top
+        print("\n--- Running Phase 4: Diffusion Method ---")
+        if edge_list is None: 
             print("Error: Edge list not loaded for Phase 4.")
             return
             
         all_drugs = edge_list['ChemicalName'].unique()
         all_diseases = edge_list['DiseaseName'].unique()
         
-        # 1. Create the split
+        # Create the split
         train_df, test_df = create_validation_split(edge_list, test_fraction=0.1)
         
-        # 2. Run the diffusion
+        # Run the diffusion
         Final_Scores, drug_to_idx, disease_to_idx = run_diffusion(train_df, all_drugs, all_diseases)
         
-        # 3. Evaluate the results
-        auc, auprc = evaluate_predictions(Final_Scores, test_df, drug_to_idx, disease_to_idx, plot_output_dir)
+        # Evaluate the results
+        auc, auprc = evaluate_predictions(Final_Scores, test_df, drug_to_idx, disease_to_idx)
+        
+        # Generate the Plot immediately
+        from src.model_evaluator import plot_score_distribution
+        plot_score_distribution()
+        
         with open(network_output_dir / "diffusion_metrics.txt", "w") as f:
             f.write(f"AUROC: {auc:.4f}\nAUPRC: {auprc:.4f}\n")
         print("\n--- Workflow Phase 4 Complete ---")
@@ -143,7 +148,7 @@ if __name__ == "__main__":
     parser.add_argument('--phase1', action='store_true', help="Run Phase 1: Data Loading & Network Construction.")
     parser.add_argument('--phase2', action='store_true', help="Run Phase 2: Core Analysis (Communities & Centrality).")
     parser.add_argument('--phase3', action='store_true', help="Run Phase 3: Advanced Validation (Embedding & Visualization).")
-    parser.add_argument('--phase4', action='store_true', help="Run Phase 4: Professor's Diffusion/Validation Method.")
+    parser.add_argument('--phase4', action='store_true', help="Run Phase 4: Diffusion/Validation Method.")
     parser.add_argument('--all', action='store_true', help="Run all phases.")
 
     parsed_args = parser.parse_args()
