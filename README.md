@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/cover_banner.png" alt="Drug-Disease Network Analysis Cover" width="100%">
+</div>
+
 # Computational Analysis of Drug-Disease Associations
 
 <p align="center">
