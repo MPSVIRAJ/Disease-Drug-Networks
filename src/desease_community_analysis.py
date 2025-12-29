@@ -10,7 +10,25 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 def analyze_disease_network(network_file_path):
-    """Loads the disease network and performs community detection."""
+    """
+    Loads a disease network graph and identifies communities using the Louvain algorithm.
+
+    This function performs a complete analysis pipeline:
+    1. Loads a NetworkX graph from a specific pickle file.
+    2. Applies the Louvain method (`best_partition`) to detect communities based on edge weights.
+    3. Calculates the modularity score to quantify the quality of the division.
+    4. Aggregates and reports the size of the top 10 communities.
+    5. Saves the resulting partition dictionary to disk for later use.
+    6. Generates and saves a log-scale histogram of community sizes.
+
+    Args:
+        network_file_path (str or Path): The file path to the pickled NetworkX 
+            graph object representing the disease network.
+
+    Returns:
+        None: This function operates via side effects (printing statistics, saving 
+        a .pkl file, and saving a .png plot).
+    """
     print(f"\n--- Starting Phase 2: Disease Network Analysis ---")
     print(f"Loading disease network from '{network_file_path}'...")
     
@@ -23,10 +41,7 @@ def analyze_disease_network(network_file_path):
     # --- Community Detection using Louvain ---
     print("\nRunning Louvain community detection...")
     start_time = time.time()
-    
-    # The Louvain algorithm works best on unweighted graphs for partitioning,
-    # but can handle weights to measure modularity. We'll use weights here.
-    # It returns a dictionary: {node: community_id}
+
     partition = community_louvain.best_partition(disease_net, weight='weight')
     
     end_time = time.time()
@@ -35,7 +50,7 @@ def analyze_disease_network(network_file_path):
     
     print(f"Louvain algorithm complete! (Took {end_time - start_time:.2f} seconds)")
     print(f"  - Found {num_communities} communities.")
-    print(f"  - Modularity score: {modularity:.4f}") # Higher is better structured
+    print(f"  - Modularity score: {modularity:.4f}") 
     
     # --- Analyze Community Sizes ---
     community_sizes = {}
@@ -49,19 +64,25 @@ def analyze_disease_network(network_file_path):
     print("\nTop 10 largest communities found:")
     print(size_df.head(10))
     
-    # --- Optional: Save Partition for Later Visualization ---
+    # Save Partition for Later Visualization
     partition_file = BASE_DIR / 'results' / 'networks' / 'disease_communities.pkl'
     with open(partition_file, 'wb') as f:
         pickle.dump(partition, f)
     print(f"\nCommunity assignments saved to '{partition_file}'")
 
-    # --- Optional: Plot Community Size Distribution ---
+    # Plot Community Size Distribution 
     plt.figure(figsize=(10, 6))
-    plt.hist(size_df['Size'], bins=max(50, num_communities // 10), log=True)
-    plt.title('Distribution of Community Sizes (Log Scale)')
-    plt.xlabel('Community Size')
-    plt.ylabel('Frequency (Log Scale)')
+    plt.hist(size_df['Size'], bins=max(50, num_communities // 10), log=True, color='skyblue', edgecolor='black')
+    
+    plt.title('Distribution of Community Sizes', fontsize=18, fontweight='bold', pad=15)
+    plt.xlabel('Community Size (Number of Diseases)', fontsize=16)
+    plt.ylabel('Frequency (Log Scale)', fontsize=16)
+    
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
+    
+    plt.grid(axis='y', alpha=0.5, linestyle='--')
+    plt.tight_layout()
     plot_path = BASE_DIR / 'results' / 'plots' / 'community_size_distribution.png'
     plt.savefig(plot_path)
     print(f"Community size distribution plot saved to '{plot_path}'")
-    # plt.show() # Uncomment if you want to see the plot immediately
