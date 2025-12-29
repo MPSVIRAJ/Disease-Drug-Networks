@@ -62,7 +62,7 @@ def main(args):
     if args.phase2 or args.all:
         print("\n--- Running Phase 2: Core Analysis ---")
         if disease_net_path.exists():
-             analyze_disease_network()
+             analyze_disease_network(disease_net_path)
         else:
              print("Error: Disease network file not found for community analysis. Run Phase 1 first.")
 
