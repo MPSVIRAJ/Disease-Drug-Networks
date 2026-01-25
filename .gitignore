@@ -20,3 +20,7 @@ results/networks/*.pkl
 
 # Large artifacts
 results/networks/*.pkl
+
+# --- Generated results (ignore) ---
+results/networks/diffusion_results.npz
+results/plots/disease_embedding_umap_old_res1.png
