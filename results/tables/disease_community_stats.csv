@@ -1,0 +1,426 @@
+Resolution,CommunityID,Size,Top_Hubs,Modularity,NumCommunities
+1.0,2,5424,"Microcephaly, Immunologic Deficiency Syndromes, Pheochromocytoma, Leukemia, Myelomonocytic, Juvenile, Respiratory Insufficiency",0.14499126629259243,10
+1.0,3,1842,"Breast Neoplasms, Prostatic Neoplasms, Carcinoma, Hepatocellular, Hypertension, Chemical and Drug Induced Liver Injury",0.14499126629259243,10
+1.0,1,9,"Prostatic Neoplasms, Castration-Resistant, Breast Neoplasms, Male, Genital Diseases, Male, Androgen-Insensitivity Syndrome, Bulbospinal neuronopathy, X-linked recessive",0.14499126629259243,10
+1.0,6,3,"Swine Diseases, Infectious Bovine Rhinotracheitis, Rotavirus Infections",0.14499126629259243,10
+1.0,5,1,Bacterial Infections and Mycoses,0.14499126629259243,10
+1.0,7,1,Cholera,0.14499126629259243,10
+1.0,8,1,Sheep Diseases,0.14499126629259243,10
+1.0,9,1,Marcus Gunn phenomenon,0.14499126629259243,10
+1.0,0,1,Ectoparasitic Infestations,0.14499126629259243,10
+1.0,4,1,Trichophyton infection,0.14499126629259243,10
+1.2,4,4628,"Myasthenic Syndromes, Congenital, Myoclonic Epilepsies, Progressive, Charcot-Marie-Tooth Disease, Chromosomal Instability, Rhabdomyosarcoma, Embryonal",0.12463556291283079,50
+1.2,0,1099,"Breast Neoplasms, Prostatic Neoplasms, Carcinoma, Hepatocellular, Hypertension, Chemical and Drug Induced Liver Injury",0.12463556291283079,50
+1.2,5,645,"Substance-Related Disorders, Alcoholism, Movement Disorders, Prenatal Exposure Delayed Effects, Catalepsy",0.12463556291283079,50
+1.2,11,92,"Vomiting, Staphylococcal Infections, Spinal Dysraphism, Thyroid Diseases, Graft vs Host Disease",0.12463556291283079,50
+1.2,1,66,"Metabolic Diseases, Bone Diseases, Metabolic, Coronary Disease, Long QT Syndrome, Female Urogenital Diseases",0.12463556291283079,50
+1.2,23,59,"Glomerulonephritis, IGA, Aortic Valve Insufficiency, Nephrosclerosis, Endomyocardial Fibrosis, Aortic Aneurysm, Thoracic",0.12463556291283079,50
+1.2,34,44,"Hyperlipoproteinemia Type II, Immunologic Deficiency Syndromes, Carotid Stenosis, Q Fever, Drug Hypersensitivity Syndrome",0.12463556291283079,50
+1.2,28,43,"Deafness, Eye Abnormalities, Lymphoma, T-Cell, Peripheral, Thyroid Cancer, Papillary, Congenital Abnormalities",0.12463556291283079,50
+1.2,30,42,"Obesity, Morbid, Polyuria, Ventricular Fibrillation, Reflex, Abnormal, Hyperphagia",0.12463556291283079,50
+1.2,9,40,"Diarrhea, Hematologic Neoplasms, Cholestasis, Intrahepatic, Translocation, Genetic, Extravasation of Diagnostic and Therapeutic Materials",0.12463556291283079,50
+1.2,19,40,"Neurobehavioral Manifestations, Heart Failure, Diastolic, Vascular Remodeling, Hypertension, Malignant, Cartilage Diseases",0.12463556291283079,50
+1.2,26,38,"Motor Skills Disorders, Fatty Liver, Alcoholic, Kidney Tubular Necrosis, Acute, Uveitis, Meningomyelocele",0.12463556291283079,50
+1.2,2,37,"Salivary Gland Neoplasms, Lymphoma, Mantle-Cell, Neurodevelopmental Disorders, Adenoma, Liver Cell, Cecal Neoplasms",0.12463556291283079,50
+1.2,6,34,"Chloracne, Wilms Tumor, Demyelinating Diseases, Leukemia, Myelogenous, Chronic, BCR-ABL Positive, Myeloproliferative Disorders",0.12463556291283079,50
+1.2,15,34,"Brain Infarction, Thromboembolism, Disseminated Intravascular Coagulation, Paratuberculosis, Acidosis, Lactic",0.12463556291283079,50
+1.2,21,34,"Malformations of Cortical Development, Leukemia, Myelomonocytic, Juvenile, Noonan Syndrome, Language Development Disorders, Melanoma, Experimental",0.12463556291283079,50
+1.2,17,23,"Leukemia, T-Cell, AUTOIMMUNE DISEASE, MULTISYSTEM, INFANTILE-ONSET, 1, Hyper-Ige Recurrent Infection Syndrome, Autosomal Dominant, Alopecia Areata, Primary Myelofibrosis",0.12463556291283079,50
+1.2,24,23,"Amyloidosis, Dementia, Respiratory Insufficiency, Cognitive Dysfunction, Tauopathies",0.12463556291283079,50
+1.2,12,22,"Leukemia, Myeloid, Diabetes Complications, Epilepsy, Temporal Lobe, Venous Thrombosis, Neovascularization, Pathologic",0.12463556291283079,50
+1.2,18,20,"beta-Thalassemia, Erythema, Pancytopenia, Hepatitis B, Chronic, Heart Septal Defects, Ventricular",0.12463556291283079,50
+1.2,10,19,"Blood Coagulation Disorders, Iron Metabolism Disorders, Gastroparesis, Mastocytosis, Systemic, Primary Ovarian Insufficiency",0.12463556291283079,50
+1.2,13,17,"Ataxia, Anaphylaxis, Cryopyrin-Associated Periodic Syndromes, Hidradenitis Suppurativa, Dysbiosis",0.12463556291283079,50
+1.2,40,17,"Leukoencephalopathies, Liver Diseases, Alcoholic, Tooth Abnormalities, Alveolar Bone Loss, Pleural Neoplasms",0.12463556291283079,50
+1.2,8,16,"Renal Insufficiency, Chronic, Hypertrophy, Right Ventricular, Hepatic Veno-Occlusive Disease, Hereditary Sensory and Autonomic Neuropathies, Skin Ulcer",0.12463556291283079,50
+1.2,16,16,"Keloid, Thrombocytopenia, Nephritis, Anuria, Glomerulonephritis, Membranous",0.12463556291283079,50
+1.2,25,14,"Prenatal Injuries, Muscular Dystrophies, Organophosphate Poisoning, Neuroectodermal Tumors, Primitive, Death",0.12463556291283079,50
+1.2,3,12,"Hyperlipidemias, Cleft Lip, Ischemic Stroke, Vestibular Diseases, Tachycardia, Ventricular",0.12463556291283079,50
+1.2,27,12,"Ocular Hypertension, Ulcer, Liposarcoma, Myxoid, Creutzfeldt-Jakob Syndrome, Retinitis Pigmentosa",0.12463556291283079,50
+1.2,35,11,"Melanoma, Cutaneous Malignant, Liposarcoma, Glaucoma, Brain Stem Neoplasms, Nerve Sheath Neoplasms",0.12463556291283079,50
+1.2,22,10,"Polycystic Kidney, Autosomal Recessive, Sinusitis, Bile Duct Neoplasms, NEONATAL NEPHROCUTANEOUS INFLAMMATORY SYNDROME, Pancreatitis, Chronic",0.12463556291283079,50
+1.2,43,10,"Thrombocytopenia 4, COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 6, Cowchock syndrome, Deafness, X-Linked 5, SPONDYLOEPIMETAPHYSEAL DYSPLASIA, X-LINKED, WITH HYPOMYELINATING LEUKODYSTROPHY",0.12463556291283079,50
+1.2,32,10,"Bone Diseases, Developmental, Limb Deformities, Congenital, Musculoskeletal Abnormalities, Thymus Neoplasms, Cyanosis",0.12463556291283079,50
+1.2,41,8,"Osteitis Deformans, Starvation, Distal myopathy, Nonaka type, FRONTOTEMPORAL DEMENTIA AND/OR AMYOTROPHIC LATERAL SCLEROSIS 3, NEURODEGENERATION WITH ATAXIA, DYSTONIA, AND GAZE PALSY, CHILDHOOD-ONSET",0.12463556291283079,50
+1.2,14,7,"Metabolism, Inborn Errors, Microcephaly, Choreoathetosis-Spasticity, Episodic, Cryohydrocytosis, Stomatin-Deficient, with Mental Retardation, Seizures, Cataracts, and Massive Hepatosplenomegaly, Glut1 Deficiency Syndrome",0.12463556291283079,50
+1.2,44,7,"Granulomatous Disease, Chronic, Anemia, Hemolytic, Congenital Nonspherocytic, ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 1, Glucosephosphate Dehydrogenase Deficiency, Favism",0.12463556291283079,50
+1.2,29,6,"Hematologic Diseases, Testicular Diseases, Malaria, Falciparum, Leukocyte Disorders, Taste Disorders",0.12463556291283079,50
+1.2,38,5,"Chromosome Aberrations, Neoplasms, Second Primary, Disease Susceptibility, Essential Tremor, Raynaud Disease",0.12463556291283079,50
+1.2,20,4,"Iron Overload, Cadmium Poisoning, Spondylometaphyseal dysplasia, Sedaghatian type, HEMOCHROMATOSIS, TYPE 5",0.12463556291283079,50
+1.2,33,3,"Vasculitis, Ectodermal Dysplasia, Anhidrotic, With T-Cell Immunodeficiency, Autosomal Dominant, Primary Graft Dysfunction",0.12463556291283079,50
+1.2,37,3,"Flushing, Stomach Diseases, Sleep Deprivation",0.12463556291283079,50
+1.2,39,3,"Sjogren's Syndrome, Intracranial Aneurysm, Granulomatous Disease, Chronic, Autosomal Recessive, Cytochrome B-Positive, Type I",0.12463556291283079,50
+1.2,7,2,"Mercury Poisoning, Nervous System, Fibrous Dysplasia of Bone",0.12463556291283079,50
+1.2,36,2,"Ovarian Cysts, Common Variable Immunodeficiency",0.12463556291283079,50
+1.2,42,1,Sciatic Neuropathy,0.12463556291283079,50
+1.2,45,1,Bacterial Infections and Mycoses,0.12463556291283079,50
+1.2,46,1,Cholera,0.12463556291283079,50
+1.2,47,1,Sheep Diseases,0.12463556291283079,50
+1.2,48,1,Marcus Gunn phenomenon,0.12463556291283079,50
+1.2,49,1,Ectoparasitic Infestations,0.12463556291283079,50
+1.2,31,1,Trichophyton infection,0.12463556291283079,50
+1.5,14,3183,"Frontonasal dysplasia, Dyssomnias, Mucopolysaccharidosis III, Contracture, Craniofrontonasal dysplasia",0.06315590175903886,365
+1.5,75,753,"Basal Ganglia Diseases, Sexual Dysfunctions, Psychological, Hyperprolactinemia, Hypopituitarism, Coma",0.06315590175903886,365
+1.5,1,592,"Breast Neoplasms, Prostatic Neoplasms, Carcinoma, Hepatocellular, Hypertension, Chemical and Drug Induced Liver Injury",0.06315590175903886,365
+1.5,70,91,"Heroin Dependence, Body Weight, Myasthenia Gravis, Postoperative Complications, Constipation",0.06315590175903886,365
+1.5,122,77,"Leigh Disease, Paraganglioma, EVEN-PLUS SYNDROME, Glycogen Storage Disease Type IV, Glycogen Storage Disease XII",0.06315590175903886,365
+1.5,0,68,"Infertility, Female, Precursor Cell Lymphoblastic Leukemia-Lymphoma, Osteosarcoma, Adenoma, Mitochondrial Diseases",0.06315590175903886,365
+1.5,136,68,"Hypogonadism, Amenorrhea, Adrenal Hyperplasia, Congenital, Ovarian Diseases, Critical Illness",0.06315590175903886,365
+1.5,155,64,"Lipid Metabolism, Inborn Errors, Dysfibrinogenemia, Congenital, Hypermethioninemia, Spastic Paraplegia, Hereditary, Patterned dystrophy of retinal pigment epithelium",0.06315590175903886,365
+1.5,2,58,"Weight Loss, Adenocarcinoma of Lung, Glucose Intolerance, Craniofacial Abnormalities, Occupational Diseases",0.06315590175903886,365
+1.5,33,48,"Leukemia-Lymphoma, Adult T-Cell, Celiac Disease, Neural Tube Defects, Lupus Nephritis, Hepatitis C",0.06315590175903886,365
+1.5,41,48,"Thromboembolism, Acidosis, Lactic, Neurologic Manifestations, Vasospasm, Intracranial, Intracranial Hemorrhages",0.06315590175903886,365
+1.5,81,43,"Hearing Loss, Sensorineural, Cartilage Diseases, Erythema, Arthritis, Myopia",0.06315590175903886,365
+1.5,185,40,"Hypereosinophilic Syndrome, Barakat syndrome, Asthma, Nasal Polyps, And Aspirin Intolerance, Bare Lymphocyte Syndrome, Type I, Mycosis Fungoides",0.06315590175903886,365
+1.5,30,33,"Amnesia, MELAS Syndrome, Ophthalmoplegia, Chronic Progressive External, Neutropenia, Gout",0.06315590175903886,365
+1.5,139,31,"Activated Protein C Resistance, Deafness, Autosomal Recessive 1A, Ichthyosis, Keratoderma, Palmoplantar, Progressive hearing loss stapes fixation",0.06315590175903886,365
+1.5,173,30,"Ehlers-Danlos syndrome, cardiac valvular form, Weill-Marchesani Syndrome, Simpson-Golabi-Behmel syndrome, Arachnodactyly, ST Elevation Myocardial Infarction",0.06315590175903886,365
+1.5,138,29,"Chromosomal Instability, Rhabdomyosarcoma, Embryonal, Meier-Gorlin syndrome, Aneuploidy, MIRROR MOVEMENTS 1",0.06315590175903886,365
+1.5,46,27,"Lymphatic Metastasis, Kidney Tubular Necrosis, Acute, Uveitis, Meningomyelocele, Methylmalonic acidemia",0.06315590175903886,365
+1.5,88,27,"Hypokalemia, Ventricular Fibrillation, Urinary Bladder Diseases, Hyperkalemia, MPTP Poisoning",0.06315590175903886,365
+1.5,9,26,"Lymphoma, Large B-Cell, Diffuse, Diabetic Retinopathy, Spinal Cord Injuries, Leukemia, Myeloid, Acute, Head and Neck Neoplasms",0.06315590175903886,365
+1.5,285,26,"Eczema, Dowling-Degos Disease, Epidermolysis Bullosa Simplex, Autosomal Recessive, Pachyonychia Congenita, Hyperkeratosis, Epidermolytic",0.06315590175903886,365
+1.5,11,25,"Papilloma, Neoplasm Recurrence, Local, Pancreatitis, Cognition Disorders, Aortic Aneurysm, Abdominal",0.06315590175903886,365
+1.5,171,25,"Charcot-Marie-Tooth Disease, Protein-Losing Enteropathies, Muscular Atrophy, Spinal, Schizophrenia, Paranoid, Hypomagnesemia primary",0.06315590175903886,365
+1.5,220,25,"Congenital central hypoventilation syndrome, Carcinoma, Medullary, Familial medullary thyroid carcinoma, Adenoma, Oxyphilic, Charcot-Marie-Tooth disease, Type 1F",0.06315590175903886,365
+1.5,4,24,"Leukemia, Astrocytoma, Diabetes, Gestational, Prostatic Intraepithelial Neoplasia, Bone Diseases, Metabolic",0.06315590175903886,365
+1.5,280,24,"Neurilemmoma, Aniridia, Branchio-Oto-Renal Syndrome, AXENFELD-RIEGER SYNDROME, TYPE 1, WAGR Syndrome",0.06315590175903886,365
+1.5,154,23,"ACTH-Secreting Pituitary Adenoma, Quadriplegia, Microphthalmia, Syndromic 6, Orofacial Cleft 11, Severe combined immunodeficiency due to adenosine deaminase deficiency",0.06315590175903886,365
+1.5,224,22,"Rickets, Vitamin D Deficiency, Hyperphosphatemia, Bone Diseases, Endocrine, Basal Cell Nevus Syndrome",0.06315590175903886,365
+1.5,316,22,"Optic Atrophy, Mitochondrial Encephalomyopathies, GLAUCOMA, NORMAL TENSION, SUSCEPTIBILITY TO, ENCEPHALOPATHY DUE TO DEFECTIVE MITOCHONDRIAL AND PEROXISOMAL FISSION 1, Optic atrophy 5",0.06315590175903886,365
+1.5,7,21,"Cleft Palate, Uremia, Glomerulonephritis, IGA, Aortic Valve Insufficiency, Nephrosclerosis",0.06315590175903886,365
+1.5,51,21,"Heart Failure, Diastolic, Urination Disorders, Cardiomyopathy, Hypertrophic, Familial, Ductus Arteriosus, Patent, Coronary Stenosis",0.06315590175903886,365
+1.5,21,20,"Hemorrhage, Macular Degeneration, Leukemia, Myeloid, Diabetes Complications, Epilepsy, Temporal Lobe",0.06315590175903886,365
+1.5,42,20,"Respiratory Distress Syndrome, Nephrotic Syndrome, Nephrosis, Nephritis, Interstitial, Keloid",0.06315590175903886,365
+1.5,234,19,"CADASIL, NEUROPATHY, HEREDITARY SENSORY AND AUTONOMIC, TYPE IIA, Hereditary Angioedema Types I and II, OSTEOGENESIS IMPERFECTA, TYPE XVII, Erythrocytosis, Familial, 4",0.06315590175903886,365
+1.5,6,18,"Mesothelioma, Behcet Syndrome, Marfan Syndrome, Chromosome Breakage, Depressive Disorder, Major",0.06315590175903886,365
+1.5,22,18,"Hyperkinesis, Movement Disorders, Epilepsy, Tonic-Clonic, Tremor, Prenatal Injuries",0.06315590175903886,365
+1.5,141,18,"Speech Disorders, Olfaction Disorders, Obesity, Hyperphagia, and Developmental Delay, Unconsciousness, Fibroma",0.06315590175903886,365
+1.5,166,18,"Hand Deformities, Congenital, Death, Sudden, Cardiac, Atrioventricular Block, Muscular Dystrophies, Limb-Girdle, Foot Deformities, Congenital",0.06315590175903886,365
+1.5,277,18,"Craniosynostoses, Antley-Bixler Syndrome Phenotype, ANTLEY-BIXLER SYNDROME WITHOUT GENITAL ANOMALIES OR DISORDERED STEROIDOGENESIS, Kallmann Syndrome, Jackson-Weiss syndrome",0.06315590175903886,365
+1.5,58,17,"Language Development Disorders, Melanoma, Experimental, LEOPARD Syndrome, Hemangioma, Endometrial Hyperplasia",0.06315590175903886,365
+1.5,60,17,"Paranoid Disorders, Obsessive-Compulsive Disorder, Segawa syndrome, autosomal recessive, Alcohol Withdrawal Seizures, Tic Disorders",0.06315590175903886,365
+1.5,77,17,"Catalepsy, Neurobehavioral Manifestations, Vascular Remodeling, Hypertension, Malignant, Hypertension, Renal",0.06315590175903886,365
+1.5,91,17,"Aortic Aneurysm, Thoracic, Neointima, Cerebral Infarction, Morphine Dependence, Aortic Aneurysm",0.06315590175903886,365
+1.5,215,17,"Hepatitis B, Chronic, Tuberculosis, Hepatitis C, Chronic, Genital Neoplasms, Female, Foodborne Diseases",0.06315590175903886,365
+1.5,213,16,"Phyllodes Tumor, Periventricular Nodular Heterotopia, Opitz-Kaveggia syndrome, Frontometaphyseal dysplasia, Nephrotic syndrome, idiopathic, steroid-resistant",0.06315590175903886,365
+1.5,65,15,"Amyloidosis, Dementia, Cognitive Dysfunction, Cerebral Amyloid Angiopathy, Spinal Cord Diseases",0.06315590175903886,365
+1.5,109,15,"Cholestasis, Intrahepatic, Afibrinogenemia, Cholestasis, progressive familial intrahepatic 1, Cholestasis, progressive familial intrahepatic 3, Jaundice, Chronic Idiopathic",0.06315590175903886,365
+1.5,206,15,"Carotid Stenosis, Alzheimer Disease, Familial, 3, with Spastic Paraparesis and Apraxia, Multiple Sclerosis, Relapsing-Remitting, Hyperlipoproteinemia Type III, Macular Degeneration, Age-Related, 1",0.06315590175903886,365
+1.5,249,15,"WHIM syndrome, Glycogen Storage Disease Type II, Respiratory Distress Syndrome, Newborn, Refractive Errors, von Willebrand Disease, Type 1",0.06315590175903886,365
+1.5,26,13,"Pre-Eclampsia, Adrenoleukodystrophy, Pancreatic Diseases, Anemia, Hemolytic, Spinocerebellar Ataxia 17",0.06315590175903886,365
+1.5,31,13,"Glomerulosclerosis, Focal Segmental, Enterocolitis, Necrotizing, Parkinson Disease, Secondary, Endotoxemia, Hypoxia-Ischemia, Brain",0.06315590175903886,365
+1.5,186,13,"MICROCEPHALY, CONGENITAL CATARACT, AND PSORIASIFORM DERMATITIS, CATARACT 44, POROKERATOSIS 9, MULTIPLE TYPES, Smith-Lemli-Opitz Syndrome, Desmosterolosis",0.06315590175903886,365
+1.5,228,13,"Adenocarcinoma, Follicular, Amyloidosis, Familial, Thyroid Hormone Resistance Syndrome, Thyroid Hormone Resistance, Generalized, Autosomal Dominant, Thyroid Hormone Resistance, Generalized, Autosomal Recessive",0.06315590175903886,365
+1.5,15,12,"Substance Withdrawal Syndrome, Cocaine-Related Disorders, Arthritis, Juvenile, Severe Acute Respiratory Syndrome, Hypertrophy",0.06315590175903886,365
+1.5,54,12,"Noonan Syndrome, Cardiofaciocutaneous syndrome, Costello Syndrome, Neoplastic Processes, Epidermal Nevus",0.06315590175903886,365
+1.5,89,12,"Triple Negative Breast Neoplasms, Down Syndrome, Inflammatory Breast Neoplasms, Staphylococcal Infections, Keratitis",0.06315590175903886,365
+1.5,108,12,"Scleroderma, Systemic, Cholangitis, Aortic Dissection, Nephrogenic Fibrosing Dermopathy, Osteogenesis Imperfecta",0.06315590175903886,365
+1.5,226,12,"Pseudohypoaldosteronism, Respiration Disorders, Brachydactyly, Hemorrhagic Disorders, Acth-Independent Macronodular Adrenal Hyperplasia",0.06315590175903886,365
+1.5,233,12,"Malnutrition, Neural tube defect, folate-sensitive, Homocystinuria, Clubfoot, Thyrotoxicosis",0.06315590175903886,365
+1.5,3,11,"Stevens-Johnson Syndrome, Intellectual Disability, Parkinsonian Disorders, Paralysis, Dermatitis",0.06315590175903886,365
+1.5,23,11,"Neurodevelopmental Disorders, Adenoma, Liver Cell, Abnormalities, Multiple, Peritoneal Neoplasms, Hepatoblastoma",0.06315590175903886,365
+1.5,67,11,"alpha-Fetoprotein Deficiency, Autoimmune Diseases of the Nervous System, Alternating hemiplegia of childhood, CONGENITAL MYOPATHY 2A, TYPICAL, AUTOSOMAL DOMINANT, MYOPATHY, SCAPULOHUMEROPERONEAL",0.06315590175903886,365
+1.5,72,11,"Hearing Loss, Motor Skills Disorders, Fatty Liver, Alcoholic, Muscle Weakness, Motor Neuron Disease",0.06315590175903886,365
+1.5,207,11,"Pigmentation Disorders, Albinism, Oculocutaneous, Waardenburg syndrome type 2, COLOBOMA, OSTEOPETROSIS, MICROPHTHALMIA, MACROCEPHALY, ALBINISM, AND DEAFNESS, Tietz syndrome",0.06315590175903886,365
+1.5,253,11,"Puberty, Delayed, Infertility, Respiratory Tract Infections, Granulosa Cell Tumor, Overweight",0.06315590175903886,365
+1.5,18,10,"Epilepsy, Leukemia, Promyelocytic, Acute, Ventricular Remodeling, Psychoses, Substance-Induced, Carcinogenesis",0.06315590175903886,365
+1.5,32,10,"Carcinoma, Pancreatic Ductal, Endocrine System Diseases, Clinical Deterioration, Gastrointestinal Diseases, Encephalomyelitis, Autoimmune, Experimental",0.06315590175903886,365
+1.5,69,10,"Disseminated Intravascular Coagulation, Paratuberculosis, Thrombophilia, Mesenteric Ischemia, Sinus Thrombosis, Intracranial",0.06315590175903886,365
+1.5,102,10,"Ischemic Stroke, Vestibular Diseases, Tachycardia, Ventricular, Teratozoospermia, Coronary Vasospasm",0.06315590175903886,365
+1.5,128,10,"Neoplasms, Squamous Cell, Hereditary Breast and Ovarian Cancer Syndrome, Ataxia Telangiectasia, BREAST-OVARIAN CANCER, FAMILIAL, SUSCEPTIBILITY TO, 1, Seckel syndrome 1",0.06315590175903886,365
+1.5,165,10,"Hypothyroidism, Goiter, Congenital Hypothyroidism, Thyroiditis, Autoimmune, HYPOTHYROIDISM, CONGENITAL, NONGOITROUS, 4",0.06315590175903886,365
+1.5,178,10,"Maple Syrup Urine Disease, Aggressive Periodontitis, Papillon-Lefevre Disease, Keratosis palmoplantaris with periodontopathia and onychogryposis, Halitosis",0.06315590175903886,365
+1.5,184,10,"Pituitary Neoplasms, Corneal Diseases, Acromegaly, Insulin-Like Growth Factor I Deficiency, Isolated Growth Hormone Deficiency, Type IB",0.06315590175903886,365
+1.5,218,10,"Reflex, Abnormal, Sudden Infant Death, Night blindness, congenital stationary, Epilepsy, Generalized, Epilepsy, Frontal Lobe",0.06315590175903886,365
+1.5,337,10,"Turcot syndrome, Massive Hepatic Necrosis, Muir-Torre Syndrome, Anemia, Macrocytic, Adenomatous Polyps",0.06315590175903886,365
+1.5,344,10,"Carnitine palmitoyl transferase 1A deficiency, Brain Diseases, Metabolic, Peroxisomal ACYL-COA oxidase deficiency, Carnitine Palmitoyltransferase II Deficiency, Infantile, Carnitine Palmitoyltransferase II Deficiency, Late-Onset",0.06315590175903886,365
+1.5,20,9,"Hearing Loss, Noise-Induced, Carcinoid Tumor, Lung agenesis, Lupus Erythematosus, Discoid, Lentivirus Infections",0.06315590175903886,365
+1.5,59,9,"Leukemia, Myelomonocytic, Juvenile, Gastrointestinal Hemorrhage, Agranulocytosis, Stomatitis, Lymphoma, AIDS-Related",0.06315590175903886,365
+1.5,111,9,"Cough, Angioedemas, Hereditary, Acquired angioedema, Sneezing, Esophageal Diseases",0.06315590175903886,365
+1.5,219,9,"Phosphoenolpyruvate carboxykinase deficiency, Congenital Hyperinsulinism, Glycogen Storage Disease Type I, Hepatorenal form of glycogen storage disease, Diabetes Mellitus, Permanent Neonatal",0.06315590175903886,365
+1.5,259,9,"DEAFNESS, AUTOSOMAL DOMINANT 56, Vesico-Ureteral Reflux, Gastroenteritis, Doyne honeycomb retinal dystrophy, Glaucoma 1, Open Angle, H",0.06315590175903886,365
+1.5,263,9,"Alveolar Bone Loss, Chronic Periodontitis, Hypophosphatasia, Hypophosphatasia, Adult, Hypophosphatasia, Childhood",0.06315590175903886,365
+1.5,276,9,"Porencephaly, Telangiectasia, Hereditary Hemorrhagic, Angiopathy, Hereditary, With Nephropathy, Aneurysms, And Muscle Cramps, Axenfeld-Rieger syndrome, BRAIN SMALL VESSEL DISEASE 1 WITH OR WITHOUT OCULAR ANOMALIES",0.06315590175903886,365
+1.5,348,9,"Neurofibroma, Plexiform, Platelet Disorder, Familial, with Associated Myeloid Malignancy, Mixed Tumor, Mullerian, Cone-Rod Dystrophy 12, Macular Dystrophy, Retinal, 2",0.06315590175903886,365
+1.5,13,8,"Renal Insufficiency, Lipidoses, Leukostasis, Polycystic Kidney, Autosomal Dominant, Lipodystrophy, Familial Partial",0.06315590175903886,365
+1.5,29,8,"Poisoning, Mental Disorders, Hematologic Neoplasms, Translocation, Genetic, Hypotension, Orthostatic",0.06315590175903886,365
+1.5,37,8,"Ataxia, Anaphylaxis, Cryopyrin-Associated Periodic Syndromes, Hidradenitis Suppurativa, Acne Vulgaris",0.06315590175903886,365
+1.5,43,8,"Primary Myelofibrosis, Polycythemia, Thrombocytosis, Pregnancy Complications, Polycythemia Vera",0.06315590175903886,365
+1.5,73,8,"Melanoma, Cutaneous Malignant, Huntington Disease, Attention Deficit Disorder with Hyperactivity, Marijuana Use, Stress Disorders, Post-Traumatic",0.06315590175903886,365
+1.5,115,8,"EPILEPSY, FAMILIAL TEMPORAL LOBE, 1, DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 41, EPILEPSY, FAMILIAL TEMPORAL LOBE, 7, Norman Roberts lissencephaly syndrome, Low Tension Glaucoma",0.06315590175903886,365
+1.5,125,8,"Glaucoma, Brain Stem Neoplasms, Nerve Sheath Neoplasms, Chromosome Deletion, Trisomy",0.06315590175903886,365
+1.5,148,8,"Respiratory Insufficiency, Tauopathies, Supranuclear Palsy, Progressive, PARKINSON DISEASE, LATE-ONSET, Psychomotor Agitation",0.06315590175903886,365
+1.5,157,8,"Nervous System Malformations, Coloboma, BARAITSER-WINTER SYNDROME 1, Dysostoses, Juvenile-onset dystonia",0.06315590175903886,365
+1.5,174,8,"Leukemia, Lymphoid, Dyskeratosis Congenita, Dyskeratosis Congenita, Autosomal Dominant, Cri-du-Chat Syndrome, DYSKERATOSIS CONGENITA, AUTOSOMAL DOMINANT 2",0.06315590175903886,365
+1.5,177,8,"Atypical Hemolytic Uremic Syndrome, Pemphigus, Complement Component 3 Deficiency, Autosomal Recessive, Macular Degeneration, Age-Related, 9, Neisseriaceae Infections",0.06315590175903886,365
+1.5,187,8,"Renal Insufficiency, Chronic, Hypertrophy, Right Ventricular, Coronary Aneurysm, Basaran Yilmaz syndrome, Craniometaphyseal dysplasia, autosomal recessive type",0.06315590175903886,365
+1.5,199,8,"Anemia, Hypochromic Microcytic, With Iron Overload, Corneal Dystrophy, Congenital Stromal, Sebaceous Gland Neoplasms, IMMUNODEFICIENCY 22, Pulmonary edema of mountaineers",0.06315590175903886,365
+1.5,238,8,"Hereditary Sensory and Autonomic Neuropathies, Dwarfism, Facies, Leukemia, Monocytic, Acute, Cerebellar Ataxia, Deafness, and Narcolepsy",0.06315590175903886,365
+1.5,244,8,"Hydrocephalus, Megalancephaly Polymicrogyria-Polydactyly Hydrocephalus Syndrome, Polydactyly, Postaxial, Megalencephaly, Perisylvian syndrome",0.06315590175903886,365
+1.5,291,8,"Hyperlipoproteinemias, Neuroectodermal Tumors, Primitive, Abdominal obesity metabolic syndrome, Periodontal Diseases, Agricultural Workers' Diseases",0.06315590175903886,365
+1.5,306,8,"Tetralogy of Fallot, Atrioventricular Septal Defect, CONOTRUNCAL HEART MALFORMATIONS, Pancreatic Agenesis, Congenital, Atrial septal defect 2",0.06315590175903886,365
+1.5,340,8,"Retinal Neovascularization, Gamma-cystathionase deficiency, Biliary Tract Neoplasms, Neurofibromatosis 1, Neurofibroma",0.06315590175903886,365
+1.5,28,7,"Warfarin Sensitivity, TOBACCO ADDICTION, SUSCEPTIBILITY TO, Carcinoma, Large Cell, Coumarin Resistance, EFAVIRENZ, POOR METABOLISM OF",0.06315590175903886,365
+1.5,35,7,"Autoimmune Lymphoproliferative Syndrome, Papillomavirus Infections, Hematologic Diseases, Malaria, Falciparum, Leukocyte Disorders",0.06315590175903886,365
+1.5,48,7,"Salivary Gland Neoplasms, Lymphoma, Mantle-Cell, Cecal Neoplasms, Genomic Instability, Bowen's Disease",0.06315590175903886,365
+1.5,71,7,"Sinusitis, Pancreatitis, Chronic, Choledochal Cyst, Hereditary renal agenesis, Hereditary pancreatitis",0.06315590175903886,365
+1.5,79,7,"Thrombocytopenia 4, COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 6, Cowchock syndrome, Deafness, X-Linked 5, SPONDYLOEPIMETAPHYSEAL DYSPLASIA, X-LINKED, WITH HYPOMYELINATING LEUKODYSTROPHY",0.06315590175903886,365
+1.5,84,7,"Osteoarthritis, Hip, Tooth Abnormalities, Cleidocranial Dysplasia, Metaphyseal Dysplasia with Maxillary Hypoplasia and Brachydactyly, Spondylarthritis",0.06315590175903886,365
+1.5,97,7,"Crisponi syndrome, Corneal Injuries, Oligodontia-Colorectal Cancer Syndrome, Laryngeal Neoplasms, Pharyngeal Neoplasms",0.06315590175903886,365
+1.5,101,7,"Hyperbilirubinemia, Neonatal, Gilbert Disease, Kernicterus, Crigler-Najjar Syndrome, Crigler Najjar syndrome, type 2",0.06315590175903886,365
+1.5,105,7,"Creutzfeldt-Jakob Syndrome, Retinitis Pigmentosa, Major Affective Disorder 7, Color Vision Defects, Wolcott-Rallison syndrome",0.06315590175903886,365
+1.5,107,7,"OSTEOGENESIS IMPERFECTA, TYPE X, Preterm Premature Rupture of the Membranes, ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 5, Neuropathy, hereditary motor and sensory, Russe type, RETINITIS PIGMENTOSA 79",0.06315590175903886,365
+1.5,119,7,"Hypersensitivity, Immediate, Gastro-enteropancreatic neuroendocrine tumor, Dermatitis, Occupational, Ileitis, Enterocolitis",0.06315590175903886,365
+1.5,132,7,"Eosinophilia, Dysbiosis, Leprosy, Pulmonary Eosinophilia, Waldenstrom Macroglobulinemia",0.06315590175903886,365
+1.5,140,7,"Sleep Initiation and Maintenance Disorders, Epilepsy, Absence, Seizures, Febrile, Angelman Syndrome, Myoclonic Epilepsy, Juvenile",0.06315590175903886,365
+1.5,156,7,"Walker-Warburg Syndrome, Coffin-Siris syndrome, Syndactyly, Cytochrome-c Oxidase Deficiency, Hermanski-Pudlak Syndrome",0.06315590175903886,365
+1.5,275,7,"Granulomatous Disease, Chronic, Anemia, Hemolytic, Congenital Nonspherocytic, ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 1, Glucosephosphate Dehydrogenase Deficiency, Favism",0.06315590175903886,365
+1.5,284,7,"Lymphoma, T-Cell, Peripheral, Immunoblastic Lymphadenopathy, Ectodermal Dysplasia, Hypopigmentation, Tooth Diseases",0.06315590175903886,365
+1.5,287,7,"Glaucoma, Angle-Closure, Intervertebral disc disease, Fibrochondrogenesis, NEURODEVELOPMENTAL DISORDER WITH HYPOTONIA, STEREOTYPIC HAND MOVEMENTS, AND IMPAIRED LANGUAGE, Intervertebral Disc Displacement",0.06315590175903886,365
+1.5,301,7,"Myoclonic Epilepsies, Progressive, Prion Diseases, Gerstmann-Straussler-Scheinker Disease, Huntington Disease-Like 1, Insomnia, Fatal Familial",0.06315590175903886,365
+1.5,312,7,"Fahr's disease, Fibromatosis, Congenital Generalized, Gingival Hyperplasia, BASAL GANGLIA CALCIFICATION, IDIOPATHIC, 4, KOSAKI OVERGROWTH SYNDROME",0.06315590175903886,365
+1.5,330,7,"Dysequilibrium syndrome, Apraxias, DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 12, Plasma Cell Granuloma, Pulmonary, Megacolon",0.06315590175903886,365
+1.5,12,6,"Pheochromocytoma, X-Linked Intellectual Disability, End Stage Liver Disease, Fetal Nutrition Disorders, Antisocial Personality Disorder",0.06315590175903886,365
+1.5,39,6,"Metabolism, Inborn Errors, Microcephaly, Choreoathetosis-Spasticity, Episodic, Cryohydrocytosis, Stomatin-Deficient, with Mental Retardation, Seizures, Cataracts, and Massive Hepatosplenomegaly, Glut1 Deficiency Syndrome",0.06315590175903886,365
+1.5,50,6,"Iron Overload, Familial apoceruloplasmin deficiency, Menkes Kinky Hair Syndrome, Hemochromatosis, type 4, Biliary Atresia",0.06315590175903886,365
+1.5,57,6,"Bronchial Hyperreactivity, Hernias, Diaphragmatic, Congenital, Influenza, Human, Spinal Dysraphism, Thyroid Diseases",0.06315590175903886,365
+1.5,66,6,"Anemia, hypochromic microcytic, Congenital atransferrinemia, Complement component 5 deficiency, Thiamine Deficiency, alpha 1-Antitrypsin Deficiency",0.06315590175903886,365
+1.5,86,6,"Psychotic Disorders, Mood Disorders, Lung Diseases, Obstructive, Glucose Metabolism Disorders, 46, XX Disorders of Sex Development",0.06315590175903886,365
+1.5,103,6,"Neoplasms, Germ Cell and Embryonal, Testicular Neoplasms, Nasal Polyps, DEAFNESS, AUTOSOMAL DOMINANT 69, HYPERPIGMENTATION WITH OR WITHOUT HYPOPIGMENTATION, FAMILIAL PROGRESSIVE",0.06315590175903886,365
+1.5,114,6,"Epidermolysis Bullosa, Junctional, Epidermolysis bullosa with pyloric atresia, Epidermolysis Bullosa, Junctional, Non-Herlitz Type, Nail Diseases, Epidermolysis Bullosa",0.06315590175903886,365
+1.5,126,6,"Obesity, Morbid, Polyuria, Hyperphagia, Oral Ulcer, Polydipsia",0.06315590175903886,365
+1.5,134,6,"Flushing, Heart Injuries, Sleep Deprivation, Alcohol-Induced Disorders, Melanosis",0.06315590175903886,365
+1.5,168,6,"Carcinoma, Lewis Lung, HEMOCHROMATOSIS, TYPE 5, Heredodegenerative Disorders, Nervous System, Hyperferritinemia, hereditary, with congenital cataracts, L-FERRITIN DEFICIENCY",0.06315590175903886,365
+1.5,170,6,"Holoprosencephaly, Jaw Abnormalities, Facial Dysmorphism with Multiple Malformations, Holoprosencephaly 3, Microphthalmia, Isolated, with Coloboma 5",0.06315590175903886,365
+1.5,176,6,"Loeys-Dietz Syndrome, Musculoskeletal Abnormalities, Respiratory System Abnormalities, Nonsyndromic Deafness, Urogenital Abnormalities",0.06315590175903886,365
+1.5,227,6,"Uveal Melanoma, Ameloblastoma, Port-Wine Stain, LEOPARD SYNDROME 3, Mandibular Neoplasms",0.06315590175903886,365
+1.5,235,6,"Exanthema, Myositis, Sclerosis, Schnitzler Syndrome, CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS",0.06315590175903886,365
+1.5,237,6,"Pancytopenia, Heart Septal Defects, Ventricular, Polyneuropathies, Sarcoma, Experimental, Paraneoplastic Syndromes",0.06315590175903886,365
+1.5,241,6,"Arterial calcification of infancy, Pseudoxanthoma Elasticum, Knobloch syndrome, KERATOSIS PILARIS ATROPHICANS, Purine-Pyrimidine Metabolism, Inborn Errors",0.06315590175903886,365
+1.5,278,6,"Neu Laxova syndrome, ASPARAGINE SYNTHETASE DEFICIENCY, Phosphoglycerate Dehydrogenase Deficiency, Phosphoserine Aminotransferase Deficiency, Citrullinemia",0.06315590175903886,365
+1.5,298,6,"Lymphoma, Extranodal NK-T-Cell, Leukemia, Prolymphocytic, T-Cell, Leukemia, Large Granular Lymphocytic, T-Lymphocytopenia, Enteropathy-Associated T-Cell Lymphoma",0.06315590175903886,365
+1.5,304,6,"Zellweger Syndrome, Peroxisome biogenesis disorders, Peroxisomal Disorders, Hypotonia-Cystinuria Syndrome, D-BIFUNCTIONAL PROTEIN DEFICIENCY",0.06315590175903886,365
+1.5,315,6,"Cytomegalovirus Infections, Mycobacterium Infections, Candidiasis, Chronic Mucocutaneous, IMMUNODEFICIENCY 31A, IMMUNODEFICIENCY 31B",0.06315590175903886,365
+1.5,324,6,"Colorectal Neoplasms, Hereditary Nonpolyposis, Colorectal Cancer, Hereditary Nonpolyposis, Type 6, Hernia, Inguinal, LOEYS-DIETZ SYNDROME 2, Scleroderma, Diffuse",0.06315590175903886,365
+1.5,27,5,"Atrial Fibrillation, Torsades de Pointes, Long Qt Syndrome 2, Short QT Syndrome 1, Lysosomal Storage Diseases",0.06315590175903886,365
+1.5,40,5,"Carotid Artery Thrombosis, Thrombasthenia, Hip Fractures, Thrombocytopenia, Neonatal Alloimmune, Glanzmann Thrombasthenia, Autosomal Dominant",0.06315590175903886,365
+1.5,44,5,"Helicobacter Infections, Carcinoma, Lobular, Neoplasm Seeding, Cataract, Nuclear Diffuse Nonprogressive, Eructation",0.06315590175903886,365
+1.5,56,5,"Mediastinal Neoplasms, Exostoses, Multiple Hereditary, Leukemia, Experimental, Metachondromatosis, Osteochondroma",0.06315590175903886,365
+1.5,61,5,"Chloracne, Rectal Neoplasms, Polycystic Kidney, Autosomal Recessive, Bile Duct Neoplasms, NEONATAL NEPHROCUTANEOUS INFLAMMATORY SYNDROME",0.06315590175903886,365
+1.5,120,5,"Gaucher Disease, Lameness, Animal, PARKINSON DISEASE 1, AUTOSOMAL DOMINANT, Parkinson Disease 4, Autosomal Dominant Lewy Body, Synucleinopathies",0.06315590175903886,365
+1.5,121,5,"Meningococcal Infections, Glycogen Storage Disease Type V, Infant, Premature, Diseases, Pneumonia, Viral, MICROVASCULAR COMPLICATIONS OF DIABETES, SUSCEPTIBILITY TO, 3",0.06315590175903886,365
+1.5,143,5,"Chromosome Aberrations, Neoplasms, Second Primary, Disease Susceptibility, Essential Tremor, Raynaud Disease",0.06315590175903886,365
+1.5,149,5,"Anonychia congenita, 46,XX SEX REVERSAL 2, 46,XY SEX REVERSAL 10, Campomelic Dysplasia, Pierre Robin Syndrome",0.06315590175903886,365
+1.5,153,5,"Congenital Abnormalities, Bicuspid Aortic Valve Disease, Adams Oliver syndrome, Scoliosis, AORTIC VALVE DISEASE 1",0.06315590175903886,365
+1.5,158,5,"Cyanosis, Heinz Body Anemias, Beta Thalassemia, Dominant Inclusion Body Type, Hemoglobinopathies, alpha-Thalassemia",0.06315590175903886,365
+1.5,212,5,"Hemangioma, capillary infantile, Eye Neoplasms, LYMPHATIC MALFORMATION 4, GLAUCOMA 3, PRIMARY CONGENITAL, E, Venous Malformations, Multiple Cutaneous and Mucosal",0.06315590175903886,365
+1.5,232,5,"Brugada Syndrome, Stress Disorders, Traumatic, Brugada Syndrome 3, Timothy syndrome, HYPERALDOSTERONISM, FAMILIAL, TYPE IV",0.06315590175903886,365
+1.5,236,5,"AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME, TYPE III, CARDIOMYOPATHY, DILATED, 1NN, LEOPARD syndrome, 2, Noonan Syndrome 5, Failure to Thrive",0.06315590175903886,365
+1.5,239,5,"Hirschsprung Disease, ABCD syndrome, WAARDENBURG SYNDROME, TYPE 4A, Sleep Apnea, Obstructive, MANDIBULOFACIAL DYSOSTOSIS WITH ALOPECIA",0.06315590175903886,365
+1.5,243,5,"Carbon Tetrachloride Poisoning, Joint Diseases, Candidiasis, Vulvovaginal, Candidiasis, Oral, Maturity-Onset Diabetes of the Young, Type 8, with Exocrine Dysfunction",0.06315590175903886,365
+1.5,258,5,"Osteitis Deformans, Starvation, Distal myopathy, Nonaka type, FRONTOTEMPORAL DEMENTIA AND/OR AMYOTROPHIC LATERAL SCLEROSIS 3, NEURODEGENERATION WITH ATAXIA, DYSTONIA, AND GAZE PALSY, CHILDHOOD-ONSET",0.06315590175903886,365
+1.5,281,5,"Myofibrillar Myopathy, CARDIOMYOPATHY, DILATED, 1HH, Cardiomyopathy, Dilated, 1i, Myopathy, Myofibrillar, Desmin-Related, Scapuloperoneal Syndrome, Neurogenic, Kaeser Type",0.06315590175903886,365
+1.5,283,5,"Duane Retraction Syndrome, CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2L, Neuropathy, Distal Hereditary Motor, Type IIA, DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 30, MULTICENTRIC CARPOTARSAL OSTEOLYSIS SYNDROME",0.06315590175903886,365
+1.5,290,5,"Hereditary Sensory and Motor Neuropathy, Rett Syndrome, Sarcoma, Ewing, Charcot-Marie-Tooth disease, Type 1D, Charcot-Marie-Tooth disease, Type 4E",0.06315590175903886,365
+1.5,295,5,"Intestinal Obstruction, Glucose-Galactose Malabsorption, Diabetes Mellitus, Insulin-Dependent, 20, Hepatic Adenomas, Familial, Maturity-Onset Diabetes of the Young, Type 3",0.06315590175903886,365
+1.5,314,5,"Hypoplastic Left Heart Syndrome, Myotonic Dystrophy, Myotonia, Optic Neuritis, SPASTIC PARAPLEGIA 76, AUTOSOMAL RECESSIVE",0.06315590175903886,365
+1.5,322,5,"Atypical Mycobacteriosis, Familial, X-Linked 2, Intracranial Aneurysm, Granulomatous Disease, Chronic, Autosomal Recessive, Cytochrome B-Positive, Type I, Granulomatous Disease, Chronic, Autosomal Recessive, Cytochrome B-Negative, Granulomatous Disease, Chronic, Autosomal Recessive, Cytochrome B-Positive, Type II",0.06315590175903886,365
+1.5,325,5,"Hypergammaglobulinemia, Hypoproteinemia, Hypercatabolic, Cerebral Amyloid Angiopathy, Familial, Macular Degeneration, Age-Related, 11, TAKENOUCHI-KOSAKI SYNDROME",0.06315590175903886,365
+1.5,327,5,"HYPOINSULINEMIC HYPOGLYCEMIA WITH HEMIHYPERTROPHY, PARKINSON DISEASE 5, AUTOSOMAL DOMINANT, SUSCEPTIBILITY TO, SPASTIC PARAPLEGIA 79B, AUTOSOMAL RECESSIVE, Pelizaeus-Merzbacher Disease, Spastic paraplegia 2, X-linked",0.06315590175903886,365
+1.5,339,5,"Ataxia with vitamin E deficiency, Pediatric Obesity, Lipid Metabolism Disorders, Hypobetalipoproteinemia, Familial, 1, Hypobetalipoproteinemia, Familial, Apolipoprotein B",0.06315590175903886,365
+1.5,5,4,"Cleft Lip, Burkitt Lymphoma, Neuroectodermal Tumors, Carcinoma, Merkel Cell",0.06315590175903886,365
+1.5,16,4,"Beckwith-Wiedemann Syndrome, Silver-Russell Syndrome, Polyhydramnios, Intrauterine Growth Retardation, Metaphyseal Dysplasia, Adrenal Hypoplasia Congenita, And Genital Anomalies",0.06315590175903886,365
+1.5,34,4,"Pneumoconiosis, Rhinitis, Respiratory Sounds, Tuberculosis, Bovine",0.06315590175903886,365
+1.5,36,4,"Venous Thrombosis, Carcinoma, Intraductal, Noninfiltrating, Hemangioblastoma, Anaplasia",0.06315590175903886,365
+1.5,49,4,"beta-Thalassemia, Severe Combined Immunodeficiency, Arenaviridae Infections, IMMUNODEFICIENCY 46",0.06315590175903886,365
+1.5,55,4,"Oligodendroglioma, Enchondromatosis, Chondroma, 2-Hydroxyglutaricaciduria",0.06315590175903886,365
+1.5,80,4,"Diverticular Diseases, Oculoauricular Syndrome, Stomatognathic Diseases, IMMUNODEFICIENCY 90 WITH ENCEPHALOPATHY, FUNCTIONAL HYPOSPLENIA, AND HEPATIC DYSFUNCTION",0.06315590175903886,365
+1.5,95,4,"Cerebrovascular Disorders, Urinary Bladder, Overactive, Auriculo-condylar syndrome, Urinary Retention",0.06315590175903886,365
+1.5,98,4,"Hypercholesterolemia, Hyperlipidemias, Coronary Disease, Hyperlipoproteinemia Type II",0.06315590175903886,365
+1.5,100,4,"Limb Deformities, Congenital, Fetal Diseases, IMMUNODEFICIENCY 15B, FETAL ENCASEMENT SYNDROME",0.06315590175903886,365
+1.5,106,4,"Amino Acid Metabolism, Inborn Errors, Microphthalmos, Coronary Vessel Anomalies, Gamma-Glutamylcysteine Synthetase Deficiency, Hemolytic Anemia due to",0.06315590175903886,365
+1.5,129,4,"Q Fever, Gallstones, HYPERCHOLESTEROLEMIA, FAMILIAL, 1, Mevalonate Kinase Deficiency",0.06315590175903886,365
+1.5,135,4,"Uterine Neoplasms, Neuroendocrine Tumors, Multiple Endocrine Neoplasia, Type IV, Adenofibroma",0.06315590175903886,365
+1.5,137,4,"AIDS Dementia Complex, Encephalitis, Viral, Blepharoptosis, Opiate Overdose",0.06315590175903886,365
+1.5,144,4,"ANTLEY-BIXLER SYNDROME WITH GENITAL ANOMALIES AND DISORDERED STEROIDOGENESIS, Gout, HPRT-Related, Lesch-Nyhan Syndrome, Osteoblastoma",0.06315590175903886,365
+1.5,152,4,"Glaucoma 3, primary infantile, B, Anterior segment mesenchymal dysgenesis, Glaucoma 3, Primary Congenital, A, Pyelonephritis",0.06315590175903886,365
+1.5,162,4,"Frontotemporal Lobar Degeneration, CEROID LIPOFUSCINOSIS, NEURONAL, 11, FRONTOTEMPORAL DEMENTIA 2, Amyotrophic Lateral Sclerosis 10",0.06315590175903886,365
+1.5,191,4,"Thoracic Neoplasms, Anophthalmos, Microphthalmia, Syndromic 3, Gestational Trophoblastic Disease",0.06315590175903886,365
+1.5,209,4,"Extravasation of Diagnostic and Therapeutic Materials, Narcolepsy, Migraine without Aura, Sialorrhea",0.06315590175903886,365
+1.5,217,4,"Erythrocyte Lactate Transporter Defect, Hyperinsulinemic hypoglycemia, familial, 7, MONOCARBOXYLATE TRANSPORTER 1 DEFICIENCY, PIGMENTED NODULAR ADRENOCORTICAL DISEASE, PRIMARY, 4",0.06315590175903886,365
+1.5,221,4,"Lynch syndrome I (site-specific colonic cancer), Osteoarthropathy, Primary Hypertrophic, Colorectal Cancer, Hereditary Nonpolyposis, Type 8, Diarrhea 5, With Tufting Enteropathy, Congenital",0.06315590175903886,365
+1.5,230,4,"Fractures, Bone, Brachydactyly type A2, Peripheral Arterial Disease, Right ventricle hypoplasia",0.06315590175903886,365
+1.5,240,4,"Hypoxia, Brain, Aniridia cerebellar ataxia mental deficiency, Spinocerebellar Ataxia 15, Spinocerebellar Ataxia 29",0.06315590175903886,365
+1.5,247,4,"Acrodermatitis, Osteoarthritis, Knee, Laron Syndrome, Short Stature, Idiopathic, Autosomal",0.06315590175903886,365
+1.5,254,4,"Ascites, Prune Belly Syndrome, Urinary Bladder, Neurogenic, Pyloric Stenosis",0.06315590175903886,365
+1.5,265,4,"Attention Deficit and Disruptive Behavior Disorders, Nasal Obstruction, Hematoma, Brain Injuries, Diffuse",0.06315590175903886,365
+1.5,267,4,"Optic Nerve Injuries, Hypercalcemia, Infantile, Aromatic amino acid decarboxylase deficiency, Nephrolithiasis",0.06315590175903886,365
+1.5,273,4,"Aicardi-Goutieres syndrome, Xeroderma Pigmentosum, IgA Deficiency, Chilblain lupus 1",0.06315590175903886,365
+1.5,289,4,"Hypoalphalipoproteinemias, Hdl Deficiency, Type 2, Tangier Disease, Hypolipoproteinemias",0.06315590175903886,365
+1.5,293,4,"Primary Graft Dysfunction, Lymphedema, IMMUNODEFICIENCY 21, LYMPHEDEMA, PRIMARY, WITH MYELODYSPLASIA",0.06315590175903886,365
+1.5,305,4,"Pitt-Hopkins syndrome, Thoracic Diseases, EPIDERMOLYSIS BULLOSA SIMPLEX 6, GENERALIZED INTERMEDIATE, WITH OR WITHOUT CARDIOMYOPATHY, Corneal Dystrophy, Fuchs Endothelial, 3",0.06315590175903886,365
+1.5,320,4,"Lupus Vasculitis, Central Nervous System, Leukocyte-Adhesion Deficiency Syndrome, Leukocyte adhesion deficiency type 1, Hereditary Diffuse Leukoencephalopathy with Spheroids",0.06315590175903886,365
+1.5,331,4,"Williams Syndrome, Cutis Laxa, Autosomal Dominant, Cutis Laxa, Aortic Stenosis, Supravalvular",0.06315590175903886,365
+1.5,333,4,"Corneal Opacity, Alagille Syndrome, Mucopolysaccharidosis IV, Gangliosidosis, GM1",0.06315590175903886,365
+1.5,341,4,"Blister, Peutz-Jeghers Syndrome, INFLAMMATORY SKIN AND BOWEL DISEASE, NEONATAL, 1, Intestinal Polyposis",0.06315590175903886,365
+1.5,342,4,"BODY MASS INDEX QUANTITATIVE TRAIT LOCUS 4, Optic Atrophies, Hereditary, Maternally Inherited Leigh Syndrome, Neuropathy ataxia and retinitis pigmentosa",0.06315590175903886,365
+1.5,350,4,"DiGeorge Syndrome, HEARING LOSS, CISPLATIN-INDUCED, SUSCEPTIBILITY TO, Temporomandibular Joint Disorders, Schizophrenia Spectrum and Other Psychotic Disorders",0.06315590175903886,365
+1.5,352,4,"Juvenile polyposis syndrome, Glycogen Storage Disease Type IIb, Growth mental deficiency syndrome of Myhre, Juvenile Polyposis with Hereditary Hemorrhagic Telangiectasia",0.06315590175903886,365
+1.5,10,3,"Mammary Neoplasms, Animal, Recurrence, Medulloblastoma",0.06315590175903886,365
+1.5,24,3,"Hypercholanemia, Familial, ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 6, Glutathione synthetase deficiency",0.06315590175903886,365
+1.5,38,3,"Brain Neoplasms, Lymphoma, Large-Cell, Anaplastic, Cystitis",0.06315590175903886,365
+1.5,45,3,"Hepatic Veno-Occlusive Disease, PSEUDO-TORCH SYNDROME 1, Ichthyosis, Leukocyte Vacuoles, Alopecia, And Sclerosing Cholangitis",0.06315590175903886,365
+1.5,52,3,"Embryo Loss, Muscular Dystrophy, Facioscapulohumeral, Abortion, Habitual",0.06315590175903886,365
+1.5,53,3,"Leukemia, T-Cell, AUTOIMMUNE DISEASE, MULTISYSTEM, INFANTILE-ONSET, 1, Hyper-Ige Recurrent Infection Syndrome, Autosomal Dominant",0.06315590175903886,365
+1.5,62,3,"Bethlem myopathy, Scleroatonic muscular dystrophy, Solitary Fibrous Tumors",0.06315590175903886,365
+1.5,74,3,"Ocular Hypertension, Ulcer, Liposarcoma, Myxoid",0.06315590175903886,365
+1.5,76,3,"Substance-Related Disorders, Prenatal Exposure Delayed Effects, Dystonia",0.06315590175903886,365
+1.5,92,3,"Arteriosclerosis, Vasculitis, Ectodermal Dysplasia, Anhidrotic, With T-Cell Immunodeficiency, Autosomal Dominant",0.06315590175903886,365
+1.5,96,3,"Charcot-Marie-Tooth disease, Type 2F, Neuronopathy, Distal Hereditary Motor, Type IIB, Heat Stress Disorders",0.06315590175903886,365
+1.5,99,3,"Familial Primary Pulmonary Hypertension, Lipodystrophy, Congenital Generalized, Type 3, LIPODYSTROPHY, FAMILIAL PARTIAL, TYPE 7",0.06315590175903886,365
+1.5,113,3,"Disorders of Sex Development, Neoplasms, Hormone-Dependent, Male Pseudohermaphroditism due to Deficiency of Testicular 17,20-Desmolase",0.06315590175903886,365
+1.5,146,3,"Dysarthria, Niemann-Pick Disease, Type C, Ophthalmoplegia",0.06315590175903886,365
+1.5,147,3,"Orthomyxoviridae Infections, IMMUNODEFICIENCY 38 WITH BASAL GANGLIA CALCIFICATION, IMMUNODEFICIENCY 39",0.06315590175903886,365
+1.5,150,3,"Spherocytosis, Hereditary, Leukemia, Erythroblastic, Acute, Acidosis, Renal Tubular",0.06315590175903886,365
+1.5,175,3,"Wolf-Hirschhorn Syndrome, Chromosome 2q37 deletion syndrome, Lipodystrophy",0.06315590175903886,365
+1.5,179,3,"Schistosomiasis, Methylmalonic acidemia with homocystinuria, Fundus Dystrophy, Pseudoinflammatory, Of Sorsby",0.06315590175903886,365
+1.5,180,3,"Muscle Hypotonia, Visceral myopathy familial external ophthalmoplegia, MITOCHONDRIAL DNA DEPLETION SYNDROME 1 (MNGIE TYPE)",0.06315590175903886,365
+1.5,182,3,"Neuromyelitis Optica, Spina Bifida Cystica, Alexander Disease",0.06315590175903886,365
+1.5,189,3,"Sjogren's Syndrome, Hereditary Autoinflammatory Diseases, AUTOINFLAMMATORY SYNDROME, FAMILIAL, BEHCET-LIKE 1",0.06315590175903886,365
+1.5,196,3,"Malformations of Cortical Development, Focal cortical dysplasia of Taylor, Exocrine Pancreatic Insufficiency",0.06315590175903886,365
+1.5,197,3,"Phencyclidine Abuse, Follicular Cyst, HIGH DENSITY LIPOPROTEIN CHOLESTEROL LEVEL QUANTITATIVE TRAIT LOCUS 6",0.06315590175903886,365
+1.5,202,3,"Drug Hypersensitivity Syndrome, Pasteurellaceae Infections, Meningitis",0.06315590175903886,365
+1.5,203,3,"Hypokinesia, Dystonia, Dopa-responsive, Hyperphenylalaninemia, BH4-Deficient, B",0.06315590175903886,365
+1.5,205,3,"Mineralocorticoid Excess Syndrome, Apparent, Acrodysostosis, Familial Glucocorticoid Deficiency 1",0.06315590175903886,365
+1.5,210,3,"Sciatic Neuropathy, Fibroadenoma, MICROPHTHALMIA, SYNDROMIC 12",0.06315590175903886,365
+1.5,216,3,"Neuromuscular Manifestations, Neuromuscular Diseases, Triosephosphate Isomerase Deficiency",0.06315590175903886,365
+1.5,222,3,"Hyperaldosteronism, Gastroenteritis, Transmissible, of Swine, Hypertension, Early-Onset, Autosomal Dominant, with Severe Exacerbation in Pregnancy",0.06315590175903886,365
+1.5,225,3,"Diabetes Mellitus, Insulin-Resistant, with Acanthosis Nigricans, Donohue Syndrome, Hyperinsulinemic Hypoglycemia, Familial, 5",0.06315590175903886,365
+1.5,242,3,"De Lange Syndrome, Lissencephaly, Hearing Disorders",0.06315590175903886,365
+1.5,255,3,"Cadmium Poisoning, Spondylometaphyseal dysplasia, Sedaghatian type, Mental Retardation, X-Linked 63",0.06315590175903886,365
+1.5,260,3,"Anemia, Megaloblastic, Folic Acid Deficiency, Megaloblastic Anemia due to Dihydrofolate Reductase Deficiency",0.06315590175903886,365
+1.5,262,3,"Encephalitis, Herpes Simplex, Anus Neoplasms, Melanoma, Amelanotic",0.06315590175903886,365
+1.5,266,3,"Leukoencephalopathies, Liver Diseases, Alcoholic, Pleural Neoplasms",0.06315590175903886,365
+1.5,269,3,"Heart Septal Defects, Porphyrias, ATRIAL SEPTAL DEFECT 8",0.06315590175903886,365
+1.5,272,3,"AGAMMAGLOBULINEMIA 7, AUTOSOMAL RECESSIVE, IMMUNODEFICIENCY 36 WITH LYMPHOPROLIFERATION, SHORT syndrome",0.06315590175903886,365
+1.5,282,3,"Chromosome 3, monosomy 3p25, Epilepsy, X-Linked, with Variable Learning Disabilities and Behavior Disorders, Mental Retardation, X-Linked 50",0.06315590175903886,365
+1.5,286,3,"Edema, Cardiac, Hypercalcemia, Idiopathic, of Infancy, Hypercalciuria, childhood idiopathic",0.06315590175903886,365
+1.5,299,3,"Mastocytosis, Neuroectodermal Tumors, Primitive, Peripheral, Piebaldism",0.06315590175903886,365
+1.5,302,3,"Oropharyngeal Neoplasms, Smooth Muscle Tumor, Neuropathy, hereditary motor and sensory, LOM type",0.06315590175903886,365
+1.5,307,3,"Cirrhosis, Familial, Cardiomyopathy, Dilated, 1w, Cardiomyopathy, Familial Hypertrophic, 15",0.06315590175903886,365
+1.5,309,3,"Hypotrichosis, Gonadal Dysgenesis, Fragile X Tremor Ataxia Syndrome",0.06315590175903886,365
+1.5,310,3,"Peripheral Nerve Injuries, Nephrosis, Lipoid, Nephrosis, congenital",0.06315590175903886,365
+1.5,317,3,"Pycnodysostosis, Combined Immunodeficiency with Autoimmunity and Spondylometaphyseal Dysplasia, Spondyloenchondrodysplasia",0.06315590175903886,365
+1.5,318,3,"Polymorphic Catecholaminergic Ventricular Tachycardia, Darier Disease, LONG QT SYNDROME 14",0.06315590175903886,365
+1.5,328,3,"CARDIOMYOPATHY, DILATED, 1II, CATARACT 16, MULTIPLE TYPES, MYOPATHY, MYOFIBRILLAR, 2B, INFANTILE-ONSET",0.06315590175903886,365
+1.5,329,3,"Polyomavirus Infections, Wounds, Penetrating, Deafness, Autosomal Recessive 39",0.06315590175903886,365
+1.5,336,3,"Glutathionuria, Eosinophilic Esophagitis, Signs and Symptoms, Respiratory",0.06315590175903886,365
+1.5,338,3,"Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia, AMYOTROPHIC LATERAL SCLEROSIS 20, Myopathy, Distal 3",0.06315590175903886,365
+1.5,346,3,"Cardiomyopathy, Dilated, 1y, Cardiomyopathy, Familial Hypertrophic, 3, Lissencephaly 3",0.06315590175903886,365
+1.5,349,3,"Orofacial Cleft 1, Corneal Dystrophy, Fuchs Endothelial, 6, Corneal Dystrophy, Posterior Polymorphous, 3",0.06315590175903886,365
+1.5,353,3,"Porphyrias, Hepatic, Lead Poisoning, Nervous System, Porphyria, Acute Hepatic",0.06315590175903886,365
+1.5,360,3,"Winchester syndrome, Robinow Sorauf syndrome, Saethre-Chotzen Syndrome with Eyelid Anomalies",0.06315590175903886,365
+1.5,17,2,"Heart Diseases, Brain Diseases",0.06315590175903886,365
+1.5,19,2,"Mercury Poisoning, Nervous System, Fibrous Dysplasia of Bone",0.06315590175903886,365
+1.5,68,2,"Hypoxia, Myeloperoxidase Deficiency",0.06315590175903886,365
+1.5,82,2,"Hyperlipidemia, Familial Combined, Hyperlipoproteinemia Type I",0.06315590175903886,365
+1.5,83,2,"Leukemia, Megakaryoblastic, Acute, Lymphoproliferative Syndrome, X-Linked, 2",0.06315590175903886,365
+1.5,93,2,"Bone Diseases, Developmental, Thymus Neoplasms",0.06315590175903886,365
+1.5,116,2,"Eye Diseases, Hereditary, Leber Congenital Amaurosis",0.06315590175903886,365
+1.5,123,2,"Myoglobinuria, Lactate dehydrogenase deficiency type A",0.06315590175903886,365
+1.5,130,2,"Ovarian Cysts, Common Variable Immunodeficiency",0.06315590175903886,365
+1.5,131,2,"Sleep Disorders, Circadian Rhythm, IMMUNODEFICIENCY 42",0.06315590175903886,365
+1.5,133,2,"Spondylitis, Ankylosing, IMMUNODEFICIENCY 29",0.06315590175903886,365
+1.5,142,2,"Dystonic Disorders, Hyperexplexia hereditary",0.06315590175903886,365
+1.5,160,2,"Exfoliation Syndrome, Migraine with Aura",0.06315590175903886,365
+1.5,163,2,"Gastrointestinal Neoplasms, Neoplastic Cells, Circulating",0.06315590175903886,365
+1.5,164,2,"Gastrointestinal Stromal Tumors, Retinoblastoma",0.06315590175903886,365
+1.5,169,2,"Immunologic Deficiency Syndromes, Platelet Glycoprotein IV Deficiency",0.06315590175903886,365
+1.5,172,2,"Ceroid Lipofuscinosis, Neuronal, 10, Keratolytic winter erythema",0.06315590175903886,365
+1.5,194,2,"Hyperammonemia, Digestive System Neoplasms",0.06315590175903886,365
+1.5,195,2,"Diarrhea, Chorioamnionitis",0.06315590175903886,365
+1.5,198,2,"Idiopathic Hypogonadotropic Hypogonadism, HYPOGONADOTROPIC HYPOGONADISM 19 WITH OR WITHOUT ANOSMIA",0.06315590175903886,365
+1.5,200,2,"Rhabdomyosarcoma, Alveolar, Keratoconus",0.06315590175903886,365
+1.5,204,2,"Cortisone reductase deficiency, Obesity, Abdominal",0.06315590175903886,365
+1.5,208,2,"Hyperthermia, Glutathione Peroxidase Deficiency, Hemolytic Anemia possibly due to",0.06315590175903886,365
+1.5,211,2,"Purpura, Thrombotic Thrombocytopenic, Coronary Artery Dissection, Spontaneous",0.06315590175903886,365
+1.5,214,2,"Hyperargininemia, Hair Diseases",0.06315590175903886,365
+1.5,223,2,"DEAFNESS, AUTOSOMAL RECESSIVE 97, Osteofibrous Dysplasia",0.06315590175903886,365
+1.5,231,2,"Brain Diseases, Metabolic, Inborn, Glutamine deficiency, congenital",0.06315590175903886,365
+1.5,245,2,"Hyper-IgM Immunodeficiency Syndrome, Mucocutaneous Lymph Node Syndrome",0.06315590175903886,365
+1.5,250,2,"Brain Infarction, Wallerian Degeneration",0.06315590175903886,365
+1.5,251,2,"Metaphyseal chondrodysplasia Spahr type, Spondyloepimetaphyseal Dysplasia, Missouri Type",0.06315590175903886,365
+1.5,252,2,"Vipoma, Esophageal and Gastric Varices",0.06315590175903886,365
+1.5,256,2,"Colonic Polyps, Fractures, Closed",0.06315590175903886,365
+1.5,257,2,"CORTICAL DYSPLASIA, COMPLEX, WITH OTHER BRAIN MALFORMATIONS 1, Fibrosis Of Extraocular Muscles, Congenital, 3A, with or without Extraocular Involvement",0.06315590175903886,365
+1.5,261,2,"Protoporphyria, Erythropoietic, Bile Duct Diseases",0.06315590175903886,365
+1.5,270,2,"Cerebellar Diseases, Trauma, Nervous System",0.06315590175903886,365
+1.5,271,2,"Advanced Sleep-Phase Syndrome, Familial, Alcoholic Intoxication",0.06315590175903886,365
+1.5,274,2,"Alopecia Areata, Cystitis, Interstitial",0.06315590175903886,365
+1.5,296,2,"Liposarcoma, Acetyl-Coa Carboxylase Deficiency",0.06315590175903886,365
+1.5,308,2,"Skin Ulcer, Corneal Ulcer",0.06315590175903886,365
+1.5,343,2,"Bone Marrow Diseases, Congenital myasthenic syndrome ib",0.06315590175903886,365
+1.5,345,2,"Liddle Syndrome, Bronchiectasis With Or Without Elevated Sweat Chloride 2",0.06315590175903886,365
+1.5,354,2,"Chondrosarcoma, Extraskeletal Myxoid, Leukemia, Myelomonocytic, Acute",0.06315590175903886,365
+1.5,355,2,"Leukodystrophy, Hypomyelinating, 4, Spastic paraplegia 13, autosomal dominant",0.06315590175903886,365
+1.5,357,2,"Neuropathy, Painful, Systemic Vasculitis",0.06315590175903886,365
+1.5,358,2,"URIC ACID CONCENTRATION, SERUM, QUANTITATIVE TRAIT LOCUS 1, Neutral Lipid Storage Disease with Myopathy",0.06315590175903886,365
+1.5,8,1,Ependymoma,0.06315590175903886,365
+1.5,25,1,Lymphoma,0.06315590175903886,365
+1.5,63,1,THROMBOCYTOPENIA 6,0.06315590175903886,365
+1.5,64,1,Alcoholism,0.06315590175903886,365
+1.5,78,1,"Cardiomyopathy, Dilated",0.06315590175903886,365
+1.5,85,1,Testicular Diseases,0.06315590175903886,365
+1.5,87,1,Bipolar Disorder,0.06315590175903886,365
+1.5,90,1,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",0.06315590175903886,365
+1.5,94,1,Cataract,0.06315590175903886,365
+1.5,104,1,Leukopenia,0.06315590175903886,365
+1.5,110,1,Chronic recurrent multifocal osteomyelitis,0.06315590175903886,365
+1.5,112,1,Deafness,0.06315590175903886,365
+1.5,117,1,Fanconi Syndrome,0.06315590175903886,365
+1.5,118,1,Fetal Growth Retardation,0.06315590175903886,365
+1.5,124,1,Lewy Body Disease,0.06315590175903886,365
+1.5,127,1,Plasminogen Activator Inhibitor-1 Deficiency,0.06315590175903886,365
+1.5,145,1,"Myasthenic Syndromes, Congenital",0.06315590175903886,365
+1.5,159,1,"Dermatitis, Irritant",0.06315590175903886,365
+1.5,161,1,Eye Abnormalities,0.06315590175903886,365
+1.5,167,1,"Hepatitis, Animal",0.06315590175903886,365
+1.5,181,1,"Muscular Dystrophy, Animal",0.06315590175903886,365
+1.5,183,1,Opioid-Related Disorders,0.06315590175903886,365
+1.5,188,1,Rubinstein-Taybi Syndrome,0.06315590175903886,365
+1.5,190,1,Spinocerebellar Ataxias,0.06315590175903886,365
+1.5,192,1,Varicose Veins,0.06315590175903886,365
+1.5,193,1,"Thyroid Cancer, Papillary",0.06315590175903886,365
+1.5,201,1,Stomach Diseases,0.06315590175903886,365
+1.5,229,1,Blood Platelet Disorders,0.06315590175903886,365
+1.5,246,1,"Myopathies, Structural, Congenital",0.06315590175903886,365
+1.5,248,1,Robinow Syndrome,0.06315590175903886,365
+1.5,264,1,"Periodic fever, familial, autosomal dominant",0.06315590175903886,365
+1.5,268,1,"Hypomagnesemia 4, Renal",0.06315590175903886,365
+1.5,279,1,Ataxia Telangiectasia Like Disorder,0.06315590175903886,365
+1.5,288,1,Glomerulopathy with fibronectin deposits,0.06315590175903886,365
+1.5,292,1,Hypospadias,0.06315590175903886,365
+1.5,294,1,"Insulin-Like Growth Factor I, Resistance To",0.06315590175903886,365
+1.5,297,1,Lymphangioleiomyomatosis,0.06315590175903886,365
+1.5,300,1,Mitochondrial Complex III Deficiency,0.06315590175903886,365
+1.5,303,1,Paraquat lung,0.06315590175903886,365
+1.5,311,1,"MICROCEPHALY 12, PRIMARY, AUTOSOMAL RECESSIVE",0.06315590175903886,365
+1.5,313,1,"Histiocytoma, Angiomatoid Fibrous",0.06315590175903886,365
+1.5,319,1,"Diabetes Insipidus, Nephrogenic",0.06315590175903886,365
+1.5,321,1,Psychomotor Disorders,0.06315590175903886,365
+1.5,323,1,Ehlers-Danlos Syndrome,0.06315590175903886,365
+1.5,326,1,Virus Diseases,0.06315590175903886,365
+1.5,332,1,Tyrosinemias,0.06315590175903886,365
+1.5,334,1,"Xanthinuria, Type I",0.06315590175903886,365
+1.5,335,1,Agammaglobulinemia,0.06315590175903886,365
+1.5,347,1,Cerebellar Ataxia,0.06315590175903886,365
+1.5,351,1,Enterovirus Infections,0.06315590175903886,365
+1.5,356,1,"Neoplasms, Radiation-Induced",0.06315590175903886,365
+1.5,359,1,Periapical Periodontitis,0.06315590175903886,365
+1.5,361,1,Bacterial Infections and Mycoses,0.06315590175903886,365
+1.5,362,1,Cholera,0.06315590175903886,365
+1.5,363,1,Sheep Diseases,0.06315590175903886,365
+1.5,364,1,Marcus Gunn phenomenon,0.06315590175903886,365
+1.5,151,1,Ectoparasitic Infestations,0.06315590175903886,365
+1.5,47,1,Trichophyton infection,0.06315590175903886,365
