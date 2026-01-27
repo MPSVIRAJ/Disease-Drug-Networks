@@ -22,5 +22,5 @@ results/networks/*.pkl
 results/networks/*.pkl
 
 # --- Generated results (ignore) ---
-results/networks/diffusion_results.npz
+results/networks/*
 results/plots/disease_embedding_umap_old_res1.png
