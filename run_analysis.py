@@ -150,8 +150,8 @@ def main(args):
     if args.phase4 or args.all:
         print("\n--- Running Phase 4: Diffusion Model Validation ---")
         
-        # 1. Prepare Data
-        # We prefer using the data already loaded in memory (edge_list)
+        # Prepare Data
+        # Prefer using the data already loaded in memory (edge_list)
         # instead of failing if a temp CSV file is missing.
         drug_disease_df = None
         
@@ -169,7 +169,7 @@ def main(args):
             print(f"Loading data from file: {data_file}")
             drug_disease_df = pd.read_csv(data_file)
         
-        # 2. Run Analysis if Data Found
+        # Run Analysis if Data Found
         if drug_disease_df is not None:
             # Ensure correct column names for the model
             # (Standardize to 'ChemicalName' and 'DiseaseName' if they are 0 and 1)
@@ -182,16 +182,17 @@ def main(args):
             drug_df = pd.DataFrame({'ChemicalName': drug_disease_df['ChemicalName'].unique()})
             disease_df = pd.DataFrame({'DiseaseName': drug_disease_df['DiseaseName'].unique()})
 
-            # 3. Run Diffusion (using the wrapper that handles splitting)
+            # Run Diffusion (using the wrapper that handles splitting)
             # This returns: Scores, Test Set, Mappings, and Training Set
             Final_Scores, test_df, drug_to_idx, disease_to_idx, train_df = run_diffusion_model(
                 drug_disease_df, drug_df, disease_df, alpha=0.5
             )
             
-            # 4. Evaluate (Passing train_df for the professor's check)
+            # Evaluate (Train + test metrics)
+
             evaluate_predictions(Final_Scores, test_df, drug_to_idx, disease_to_idx, train_df=train_df)
             
-            # 5. Plot
+            # Plot
             plot_score_distribution()
             
             print("\n--- Workflow Phase 4 Complete ---")
